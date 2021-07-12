@@ -1,6 +1,7 @@
 from flask.cli import FlaskGroup
 
-from project import app, db, User, Director, Genre, FilmToGenre, Film
+from project import app
+from project.models import User, Genre, Film, Director, FilmToGenre, db
 
 
 cli = FlaskGroup(app)
@@ -43,6 +44,7 @@ def seed_db():
     gnr9 = Genre('Sport')
     gnr10 = Genre('Romance')
     gnr11 = Genre('Mystery')
+    gnr12 = Genre('Action')
     flm1 = Film(
         user_id=2, name='Joker', release_date='2019-10-02', rating=8.4,
         poster_link='https://www.imdb.com/title/tt7286456/mediaviewer/rm3353122305/',
@@ -119,6 +121,29 @@ def seed_db():
                     ' has been missing for forty years by Lisbeth Salander, a young computer hacker.',
         director_id=3
     )
+    flm11 = Film(
+        user_id=4, name='Goodfellas', release_date='1990-09-12', rating=8.7,
+        poster_link='https://www.imdb.com/title/tt0099685/mediaviewer/rm2091797760/',
+        description='The story of Henry Hill and his life in the mob, covering his relationship '
+                    'with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito '
+                    'in the Italian-American crime syndicate.',
+        director_id=7
+    )
+    flm12 = Film(
+        user_id=5, name='Lock, Stock and Two Smoking Barrels', release_date='1998-08-28', rating=8.2,
+        poster_link='https://www.imdb.com/title/tt0120735/mediaviewer/rm1138956032/',
+        description='Eddy persuades his three pals to pool money for a vital poker game against a '
+                    'powerful local mobster, Hatchet Harry. Eddy loses, after which Harry gives him'
+                    ' a week to pay back 500,000 pounds.',
+        director_id=6
+    )
+    flm13 = Film(
+        user_id=6, name='Sherlock Holmes', release_date='2009-12-25', rating=7.6,
+        poster_link='https://www.imdb.com/title/tt0988045/mediaviewer/rm4059794944/',
+        description='Detective Sherlock Holmes and his stalwart partner Watson engage in'
+                    ' a battle of wits and brawn with a nemesis whose plot is a threat to all of England.',
+        director_id=6
+    )
     fg1 = FilmToGenre(1, 1)
     fg2 = FilmToGenre(2, 1)
     fg3 = FilmToGenre(3, 1)
@@ -145,9 +170,16 @@ def seed_db():
     fg24 = FilmToGenre(1, 10)
     fg25 = FilmToGenre(2, 10)
     fg26 = FilmToGenre(11, 10)
-    db.session.add_all([fg1, fg2, fg3, fg4, fg5, fg6, fg7, fg8, fg9, fg10,
-                        fg11, fg12, fg13, fg14, fg15, fg16, fg17, fg18,
-                        fg19, fg20, fg21, fg22, fg23, fg24, fg25, fg26])
+    fg27 = FilmToGenre(5, 11)
+    fg28 = FilmToGenre(1, 11)
+    fg29 = FilmToGenre(2, 11)
+    fg30 = FilmToGenre(12, 12)
+    fg31 = FilmToGenre(4, 12)
+    fg32 = FilmToGenre(1, 12)
+    fg33 = FilmToGenre(12, 13)
+    fg34 = FilmToGenre(7, 13)
+    fg35 = FilmToGenre(11, 13)
+    db.session.add_all([])
     db.session.commit()
 
 
