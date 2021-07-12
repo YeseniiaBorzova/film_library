@@ -5,10 +5,11 @@
     <title>Main page</title>
 </head>
 <body>
+<a href="/login">Login</a>
 <h1>Welcome to film library!</h1>
     {% for film in films.items %}
         <h4>{{ film.name }}, {{ film.rating }}</h4>
-        <h4>{{ film.description }}</h4><br>
+        <p>{{ film.description }}</p><br>
     {% endfor %}
 
     {% for page_num in films.iter_pages() %}
