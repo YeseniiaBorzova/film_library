@@ -1,13 +1,19 @@
 from flask_sqlalchemy import SQLAlchemy
+from flask_login import UserMixin, LoginManager
+from flask_migrate import Migrate
+
+
 db = SQLAlchemy()
+migrate = Migrate()
+login_manager = LoginManager()
 
 
-class User(db.Model):
+class User(db.Model, UserMixin):
     __tablename__ = "users"
 
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(30), unique=True, nullable=False)
-    password = db.Column(db.String(10), unique=False, nullable=False)
+    username = db.Column(db.String(100), unique=True, nullable=False)
+    password = db.Column(db.String(100), unique=False, nullable=False)
     is_admin = db.Column(db.Boolean(), default=False, nullable=False)
     films = db.relationship('Film', backref='user', lazy=True)
 
@@ -18,6 +24,10 @@ class User(db.Model):
 
     def __repr__(self):
         return f"{self.username} {self.password} admin: {str(self.is_admin)}"
+
+    @login_manager.user_loader
+    def load_user(user_id):
+        return User.query.get(user_id)
 
     @property
     def serialize(self):
