@@ -1,6 +1,9 @@
+"""Module responsible for various resources that responsible
+for GET, POST, DELETE request processing on Film, Director models"""
+
 from flask import jsonify, abort, request
-from flask_restx import Resource, reqparse
-from flask_login import login_required
+from flask_restx import Resource
+
 
 from . import models
 
@@ -26,6 +29,8 @@ class FilmResource(Resource):
         director_id = request.json.get('director_id', None)
         res = models.Film.query.filter_by(name=name).first()
         print(res)
+        if rating > 10 or rating < 1:
+            abort(400)
         if res:
             abort(409)
         new_film = models.Film(user_id=user_id, name=name, release_date=release_date,
@@ -43,6 +48,21 @@ class FilmResource(Resource):
         return "", 204
 
 
+class FilmDirector(Resource):
+    """Resource responsible for searching films of director by id"""
+    def get(self, director_id):
+        """GET request returns all films of specified director by is"""
+        film_directors = models.db.session.query(models.Film, models.Director).\
+            join(models.Director, models.Film.director_id == models.Director.id).\
+            filter(models.Director.id == director_id).all()
+
+        films = []
+        for film, director in film_directors:
+            films.append(film)
+
+        return jsonify({f"{director_id}": [i.serialize for i in films]})
+
+
 class FilmGenre(Resource):
     def get(self, genre_name):
         """GET request returns all Films in JSON that belong to specified genre"""
@@ -57,14 +77,48 @@ class FilmGenre(Resource):
         return jsonify({f"{genre_name}": [i.serialize for i in films]})
 
 
-class FilmsResource(Resource):
-    """GET request returns all Films in JSON"""
+class FilmsOrderByRatingDesc(Resource):
+    """Resource responsible for sorting films by rating from 10 to 1"""
     def get(self):
+        """GET request returns films list sorted by descending rating"""
+        films = models.db.session.query(models.Film).order_by(models.Film.rating.desc())
+        return jsonify(films=[i.serialize for i in films])
+
+
+class FilmsOrderByDateDesc(Resource):
+    """Resource responsible for sorting films by date from newest to oldest"""
+    def get(self):
+        """GET request returns films list sorted by descending release date"""
+        films = models.db.session.query(models.Film).order_by(models.Film.release_date.desc())
+        return jsonify(films=[i.serialize for i in films])
+
+
+class FilmsOrderByRatingAsc(Resource):
+    """Resource responsible for sorting films by rating from 1 to 10"""
+    def get(self):
+        """GET request returns films list sorted by ascending rating"""
+        films = models.db.session.query(models.Film).order_by(models.Film.rating.asc())
+        return jsonify(films=[i.serialize for i in films])
+
+
+class FilmsOrderByDateAsc(Resource):
+    """Resource responsible for sorting films by date from oldest to newest"""
+    def get(self):
+        """GET request returns films list sorted by ascending release date"""
+        films = models.db.session.query(models.Film).order_by(models.Film.release_date.asc())
+        return jsonify(films=[i.serialize for i in films])
+
+
+class FilmsResource(Resource):
+    """Resource responsible for returning of all films"""
+    def get(self):
+        """GET request returns all Films in JSON"""
         films = models.Film.query.all()
         return jsonify(list=[i.serialize for i in films])
 
 
 class DirectorResource(Resource):
+    """Resource responsible for GET, POST and DELETE request with director"""
     def get(self, director_id):
         """GET request returns Film in JSON format by id"""
         director = models.Director.query.filter_by(id=director_id).first()
