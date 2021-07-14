@@ -84,6 +84,8 @@ class Genre(db.Model):
 class Film(db.Model):
     __tablename__ = "films"
 
+    genres = []
+
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     director_id = db.Column(db.Integer, db.ForeignKey('directors.id'), nullable=True)
@@ -117,6 +119,12 @@ class Film(db.Model):
             'poster link': self.poster_link,
             'description': self.description
         }
+
+    def add_genre(self, genre):
+        self.genres.append(genre)
+
+    def check_genre(self, genre):
+        return genre in self.genres
 
 
 class FilmToGenre(db.Model):
