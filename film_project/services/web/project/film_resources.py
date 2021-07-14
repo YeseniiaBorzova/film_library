@@ -3,15 +3,6 @@ from flask_restx import Resource, reqparse
 
 from . import models
 
-# film_put_args = reqparse.RequestParser()
-# film_put_args.add_argument('user_id', type=int, help="User id", required=True)
-# film_put_args.add_argument('name', type=str, help="Film name", required=True)
-# film_put_args.add_argument('release_date', type=str, help="Film release date", required=True)
-# film_put_args.add_argument('rating', type=float, help="Film rating", required=True)
-# film_put_args.add_argument('poster_link', type=str, help="IMDB poster link", required=True)
-# film_put_args.add_argument('description', type=str, help="Description", required=False)
-# film_put_args.add_argument('director_id', type=int, help="Director id", required=False)
-
 
 class FilmResource(Resource):
     def get(self, film_id):
