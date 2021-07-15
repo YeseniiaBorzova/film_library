@@ -39,8 +39,8 @@ def main_films_page():
 
     all_films = {"name": set(), "genres": []}
     film_genre_join = models.db.session.query(models.Film, models.FilmToGenre, models.Genre).\
-        join(models.FilmToGenre, models.Film.id == models.FilmToGenre.film_id).\
-        join(models.Genre, models.FilmToGenre.genre_id == models.Genre.id).all()
+        outerjoin(models.FilmToGenre, models.Film.id == models.FilmToGenre.film_id).\
+        outerjoin(models.Genre, models.FilmToGenre.genre_id == models.Genre.id).all()
 
     return render_template('main.html', cur_user=user, all_films=film_genre_join, data=all_films)
 

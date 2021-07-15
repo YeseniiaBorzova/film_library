@@ -16,14 +16,14 @@ def create_db():
 
 @cli.command("seed_db")
 def seed_db():
-    usr1 = User("Oleg97", "pbf312*", True)
+    usr1 = User("Oleg97", "pbf312*", True)  # admin
     usr2 = User("Alina555", "gw#11drp", False)
     usr3 = User("Max8000", "bweuhb$09", False)
     usr4 = User("Semen21", "yyslf888@", False)
-    usr5 = User("Marina05", "passcode!", True)
+    usr5 = User("Marina05", "passcode!", True)  # admin
     usr6 = User("Viktor29", "test444**", False)
     usr7 = User('Alex33', '##rot1', False)
-    usr8 = User('Mariia209', 'tot_123', True)
+    usr8 = User('Mariia209', 'tot_123', True)  # admin
     usr9 = User('Nikolai28', 'ehfu00&', False)
     usr10 = User('Dasha01', 'erj@w2', False)
     dir1 = Director('Joel', 'Coen')
