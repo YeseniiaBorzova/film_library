@@ -1,16 +1,28 @@
-from flask import Flask
-from flask_migrate import Migrate
-from .main_page import main_blueprint
-from .models import db
+from flask import Flask, request
+from flask_restx import Api
+
+from .home_page_routes import main_blueprint
+from .film_resources import *
+
+from .models import *
 
 
 app = Flask(__name__)
+api = Api()
 app.register_blueprint(main_blueprint, url_prefix="")
-#app.config.from_object("film_project.services.web.project.config.Config")
-#app.config.from_pyfile('config.py')
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://hello_flask:hello_flask@db:5432/hello_flask_dev"
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.register_blueprint(films_blueprint, url_prefix="")
+api.init_app(app)
+app.config.from_object("project.config.Config")
+app.secret_key = "very secret key"
+login_manager.init_app(app)
 db.init_app(app)
-#engine = create_engine("postgresql://hello_flask:hello_flask@localhost:5433/hello_flask_dev")
-
-migrate = Migrate(app, db)
+api.add_resource(FilmResource, "/api/films/<int:film_id>", "/api/film/")
+api.add_resource(FilmsResource, "/api/films")
+api.add_resource(FilmGenre, "/api/films/<string:genre_name>")
+api.add_resource(FilmDirector, "/api/films/director-film/<int:director_id>")
+api.add_resource(FilmsOrderByRatingDesc, "/api/films/order-by-rating-desc")
+api.add_resource(FilmsOrderByDateDesc, "/api/films/order-by-date-desc")
+api.add_resource(FilmsOrderByRatingAsc, "/api/films/order-by-rating-asc")
+api.add_resource(FilmsOrderByDateAsc, "/api/films/order-by-date-asc")
+api.add_resource(DirectorResource, "/api/directors/<int:director_id>", "/api/director/")
+migrate.init_app(app, db)

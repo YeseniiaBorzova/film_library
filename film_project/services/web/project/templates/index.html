@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Main page</title>
+    <title>Home page</title>
 </head>
 <body>
+<a href="/login">Login</a>
+<h1>Welcome to film library!</h1>
+    {% for film in films.items %}
+        <h4>{{ film.name }}, {{ film.rating }}</h4>
+        <p>{{ film.description }}</p><br>
+    {% endfor %}
 
+    {% for page_num in films.iter_pages() %}
+        {% if page_num %}
+            <a href="{{ url_for('main_blueprint.index', page=page_num) }}">{{ page_num }}</a>
+        {% else %}
+            ...
+        {% endif %}
+    {% endfor %}
 </body>
 </html>

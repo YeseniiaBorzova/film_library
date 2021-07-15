@@ -3,6 +3,7 @@ version: '3.8'
 services:
   web:
     build: ./services/web
+    restart: always
     command: python manage.py run -h 0.0.0.0
     volumes:
       - ./services/web/:/usr/src/app/
@@ -12,13 +13,14 @@ services:
       - ./.env.dev
     depends_on:
       - db
+
   db:
     image: postgres:13-alpine
     restart: always
     container_name: 'hello_flask_dev'
-    hostname: localhost:5432
+    hostname: films
     ports:
-      - 5002:5432
+      - 5432:5432
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
