@@ -151,7 +151,7 @@ class FilmResource(Resource):
             abort(403)
 
 
-class FilmDirector(Resource):
+class FilmDirectorById(Resource):
     """Resource responsible for searching films of director by id"""
     def get(self, director_id):
         """GET request returns all films of specified director by is"""
@@ -167,6 +167,24 @@ class FilmDirector(Resource):
             abort(404)
 
         return jsonify({f"{director_id}": [i.serialize for i in films]})
+
+
+class FilmDirectorByFullName(Resource):
+    def get(self):
+        director_name = request.json["director_name"]
+        director_surname = request.json["director_surname"]
+        film_directors = models.db.session.query(models.Film, models.Director). \
+            join(models.Director, models.Film.director_id == models.Director.id). \
+            filter(models.Director.name == director_name, models.Director.surname == director_surname).all()
+
+        films = []
+        for film, director in film_directors:
+            films.append(film)
+
+        if len(films) == 0:
+            abort(404)
+
+        return jsonify({f"{director_name} {director_surname}": [i.serialize for i in films]})
 
 
 class FilmGenre(Resource):

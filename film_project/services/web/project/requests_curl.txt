@@ -13,13 +13,16 @@ curl -u Semen21:yyslf888@ -X PUT http://localhost:5005/api/films/17 -H "Content-
 
 curl -u Semen21:yyslf888@ -X PUT http://localhost:5005/api/films/17 -H "Content-Type: application/json" --data '{"rating": 6.8}'
 
-
 curl -u Oleg97:pbf312* -X PUT http://localhost:5005/api/films/17 -H "Content-Type: application/json" --data '{"name": "Panda Po 2"}'
 
 POST request to add new director:
 
 curl -u Semen21:yyslf888@ -X POST  -X POST http://localhost:5005/api/director/ -H "Content-Type: application/json" --data
 '{"name":"Joseph", "surname":"Watson"}'
+
+GET request to find director by name and surname
+
+curl -i -X GET http://localhost:5005/api/films/director-film/ -H "Content-Type: application/json" --data '{"director_name":"Guy","director_surname":"Ritchie"}'
 
 DELETE request to delete director only for admin:
 
