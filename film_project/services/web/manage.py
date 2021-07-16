@@ -1,3 +1,5 @@
+"""Module that allows to give flask app commands through command line interface"""
+
 from flask.cli import FlaskGroup
 
 from project import app
@@ -7,11 +9,11 @@ from project.models import User, Genre, Film, Director, FilmToGenre, db
 cli = FlaskGroup(app)
 
 
-@cli.command("create_db")
-def create_db():
-    db.drop_all()
-    db.create_all()
-    db.session.commit()
+# @cli.command("create_db")
+# def create_db():
+#     db.drop_all()
+#     db.create_all()
+#     db.session.commit()
 
 
 @cli.command("seed_db")

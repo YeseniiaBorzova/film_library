@@ -1,3 +1,5 @@
+"""Module contains all models defined in our database"""
+
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin, LoginManager
 from flask_migrate import Migrate
