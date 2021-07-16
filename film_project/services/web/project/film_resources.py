@@ -1,5 +1,5 @@
 """Module responsible for various resources that responsible
-for GET, POST, DELETE request processing on Film, Director models"""
+for GET, PUT, POST, DELETE request processing on Film, Director models"""
 
 from flask import jsonify, abort, request, Blueprint
 from flask_restx import Resource
@@ -9,7 +9,6 @@ from flask_httpauth import HTTPBasicAuth
 from . import models
 
 
-films_blueprint = Blueprint('films_blueprint', __name__, template_folder='templates')
 auth = HTTPBasicAuth()
 
 
@@ -170,6 +169,7 @@ class FilmDirectorById(Resource):
 
 
 class FilmDirectorByFullName(Resource):
+    """Resource responsible for getting director by full name"""
     def get(self):
         director_name = request.json["director_name"]
         director_surname = request.json["director_surname"]
@@ -188,6 +188,7 @@ class FilmDirectorByFullName(Resource):
 
 
 class FilmGenre(Resource):
+    """Resource returning all films that related to specified genre"""
     def get(self, genre_name):
         """GET request returns all Films in JSON that belong to specified genre"""
         film_genre_join = models.db.session.query(models.Film, models.FilmToGenre, models.Genre). \
@@ -199,6 +200,20 @@ class FilmGenre(Resource):
             films.append(film)
 
         return jsonify({f"{genre_name}": [i.serialize for i in films]})
+
+
+class FilmOrderedByYears(Resource):
+    """Resource responsible for returning films in some defined year range"""
+    def get(self):
+        """GET request returns films in some year range"""
+        year_from = int(request.json['year_from'])
+        year_to = int(request.json['year_to'])
+        films = models.db.session.query(models.Film).\
+            filter(models.db.extract('year', models.Film.release_date).between(year_from, year_to)).all()
+        if len(films) == 0:
+            abort(404)
+
+        return jsonify({f"{year_from} - {year_to}": [i.serialize for i in films]})
 
 
 class FilmsOrderByRatingDesc(Resource):

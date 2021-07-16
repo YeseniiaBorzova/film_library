@@ -1,3 +1,5 @@
+"""Module responsible for app configuration"""
+
 import os
 
 

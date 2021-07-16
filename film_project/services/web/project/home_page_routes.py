@@ -1,3 +1,5 @@
+"""Module contains main routes of app, login, registration, home and main pages"""
+
 from flask import Blueprint, render_template, request, redirect, flash
 from flask_login import login_user, login_required, logout_user, current_user
 

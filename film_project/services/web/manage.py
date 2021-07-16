@@ -1,3 +1,5 @@
+"""Module that allows to give flask app commands through command line interface"""
+
 from flask.cli import FlaskGroup
 
 from project import app
