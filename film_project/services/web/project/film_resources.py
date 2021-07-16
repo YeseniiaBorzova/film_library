@@ -3,7 +3,6 @@ for GET, POST, DELETE request processing on Film, Director models"""
 
 from flask import jsonify, abort, request, Blueprint
 from flask_restx import Resource
-from flask_login import current_user, login_required
 from flask_httpauth import HTTPBasicAuth
 
 
@@ -16,10 +15,37 @@ auth = HTTPBasicAuth()
 
 @auth.verify_password
 def verify_password(username, password):
+    """Redefined method for http_auth to verify user"""
     user = models.User.query.filter_by(username=username).first()
     if user and user.password == password:
         return True
     return False
+
+
+def get_paginated_list(results, url, start, limit):
+    """Function responsible for pagination of JSON film object on GET request by url '/api/films'"""
+    start = int(start)
+    limit = int(limit)
+    count = len(results)
+    if count < start or limit < 0:
+        abort(404)
+
+    obj = {'start': start, 'limit': limit, 'count': count}
+    if start == 1:
+        obj['previous'] = ''
+    else:
+        start_copy = max(1, start - limit)
+        limit_copy = start - 1
+        obj['previous'] = url + '?start=%d&limit=%d' % (start_copy, limit_copy)
+
+    if start + limit > count:
+        obj['next'] = ''
+    else:
+        start_copy = start + limit
+        obj['next'] = url + '?start=%d&limit=%d' % (start_copy, limit)
+
+    obj['results'] = results[(start - 1):(start - 1 + limit)]
+    return obj
 
 
 class FilmResource(Resource):
@@ -197,7 +223,13 @@ class FilmsResource(Resource):
         for film in films:
             if film.director_id is None:
                 film.director_id = 'unknown'
-        return jsonify(list=[i.serialize for i in films])
+
+        return jsonify(get_paginated_list(
+            [i.serialize for i in films],
+            '/api/films',
+            start=request.args.get('start', 1),
+            limit=request.args.get('limit', 10)
+        ))
 
 
 class DirectorResource(Resource):
