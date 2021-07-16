@@ -10,12 +10,13 @@ from .models import *
 
 app = Flask(__name__)
 api = Api()
-app.register_blueprint(main_blueprint, url_prefix="")
 api.init_app(app)
 app.config.from_object("project.config.Config")
 app.secret_key = "very secret key"
 login_manager.init_app(app)
 db.init_app(app)
+app.register_blueprint(main_blueprint, url_prefix="")
+api.add_resource(SearchFilms, "/api/films/<string:film_name>")
 api.add_resource(FilmResource, "/api/films/<int:film_id>", "/api/film/")
 api.add_resource(FilmsResource, "/api/films")
 api.add_resource(FilmGenre, "/api/films/<string:genre_name>")
