@@ -183,7 +183,14 @@ def seed_db():
     fg33 = FilmToGenre(12, 13)
     fg34 = FilmToGenre(7, 13)
     fg35 = FilmToGenre(11, 13)
-    db.session.add_all([])
+    db.session.add_all([usr1, usr2, usr3, usr4, usr5, usr6, usr7, usr8, usr9, usr10,
+                        dir1, dir2, dir3, dir4, dir5, dir6, dir7, gnr1, gnr2, gnr3,
+                        gnr4, gnr5, gnr6, gnr7, gnr8, gnr9, gnr10, gnr11, gnr12, flm1,
+                        flm2, flm3, flm4, flm5, flm6, flm7, flm8, flm9, flm10, flm11,
+                        flm12, flm13, fg1, fg2, fg3, fg4, fg5, fg6, fg7, fg8, fg9, fg10,
+                        fg11, fg12, fg13, fg14, fg15, fg16, fg17, fg18, fg19, fg20, fg21,
+                        fg22, fg23, fg24, fg25, fg26, fg27, fg28, fg29, fg30, fg31, fg32,
+                        fg33, fg34, fg35])
     db.session.commit()
 
 
