@@ -32,3 +32,1221 @@
 2021-07-17 12:37:03,976:INFO:127.0.0.1 - - [17/Jul/2021 12:37:03] "[32mGET /logout HTTP/1.1[0m" 302 -
 2021-07-17 12:37:04,018:INFO:Showing films to user
 2021-07-17 12:37:04,019:INFO:127.0.0.1 - - [17/Jul/2021 12:37:04] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-07-17 11:20:03,980:WARNING: * Debugger is active!
+2021-07-17 11:20:03,981:INFO: * Debugger PIN: 120-141-584
+2021-07-17 14:25:04,206:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-17 14:25:04,207:INFO: * Restarting with stat
+2021-07-17 14:25:06,007:WARNING: * Debugger is active!
+2021-07-17 14:25:06,008:INFO: * Debugger PIN: 310-025-136
+2021-07-17 14:25:09,632:INFO:Film with id = 7 not found
+2021-07-17 14:25:09,634:INFO:127.0.0.1 - - [17/Jul/2021 14:25:09] "[37mGET /api/films/7 HTTP/1.1[0m" 200 -
+2021-07-17 15:16:33,919:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-17 15:16:33,928:INFO: * Restarting with stat
+2021-07-17 15:16:35,528:WARNING: * Debugger is active!
+2021-07-17 15:16:35,545:INFO: * Debugger PIN: 310-025-136
+2021-07-17 15:22:14,506:INFO:Film with id = 7 not found
+2021-07-17 15:23:05,248:INFO:Film with id = 7 not found
+2021-07-17 15:23:05,267:WARNING:Film with id = 105 not found
+2021-07-18 14:03:27,518:INFO:Film with id = 7 not found
+2021-07-18 14:03:27,556:WARNING:Film with id = 105 not found
+2021-07-18 14:10:30,105:INFO:Film with id = 7 not found
+2021-07-18 14:10:30,164:WARNING:Film with id = 105 not found
+2021-07-18 14:10:30,382:INFO:Film with name like The wolf found
+2021-07-18 14:11:30,289:INFO:Film with name like The found
+2021-07-18 14:11:30,314:INFO:127.0.0.1 - - [18/Jul/2021 14:11:30] "[37mGET /api/films/The HTTP/1.1[0m" 200 -
+2021-07-18 14:11:50,146:WARNING:Film with name like The lonely Soul not found
+2021-07-18 14:11:50,150:INFO:127.0.0.1 - - [18/Jul/2021 14:11:50] "[33mGET /api/films/The%20lonely%20Soul HTTP/1.1[0m" 404 -
+2021-07-18 14:13:27,068:INFO:Film with name like The wolf found
+2021-07-18 14:13:27,070:INFO:127.0.0.1 - - [18/Jul/2021 14:13:27] "[37mGET /api/films/The%20wolf HTTP/1.1[0m" 200 -
+2021-07-18 14:14:05,161:WARNING:Film with name like The lonely soul not found
+2021-07-18 14:14:05,180:INFO:127.0.0.1 - - [18/Jul/2021 14:14:05] "[33mGET /api/films/The%20lonely%20soul HTTP/1.1[0m" 404 -
+2021-07-18 14:30:49,004:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py', reloading
+2021-07-18 14:30:49,949:INFO: * Restarting with stat
+2021-07-18 11:30:50,057:INFO: * Detected change in '/usr/src/app/project/film_resources.py', reloading
+2021-07-18 14:30:54,878:INFO:Film with id = 7 not found
+2021-07-18 14:30:54,927:WARNING:Film with id = 105 not found
+2021-07-18 14:30:54,963:INFO:Film with name like The wolf found
+2021-07-18 14:30:54,981:WARNING:Film with name like The lonely soul not found
+2021-07-18 14:30:59,918:WARNING: * Debugger is active!
+2021-07-18 14:30:59,921:INFO: * Debugger PIN: 310-025-136
+2021-07-18 11:31:22,174:WARNING: * Debugger is active!
+2021-07-18 11:31:22,245:INFO: * Debugger PIN: 120-141-584
+2021-07-18 14:33:46,200:INFO:Film with id = 7 not found
+2021-07-18 14:33:46,249:WARNING:Film with id = 105 not found
+2021-07-18 14:33:46,314:WARNING:Film with name like Adventure not found
+2021-07-18 14:33:46,391:WARNING:Film with name like Science_Fiction not found
+2021-07-18 14:33:46,430:INFO:Film with name like The wolf found
+2021-07-18 14:33:46,461:WARNING:Film with name like The lonely soul not found
+2021-07-18 14:34:44,729:INFO:Film with id = 7 not found
+2021-07-18 14:34:44,758:WARNING:Film with id = 105 not found
+2021-07-18 14:34:44,795:WARNING:Film with name like Drama not found
+2021-07-18 14:34:44,943:WARNING:Film with name like Science_Fiction not found
+2021-07-18 14:34:44,974:INFO:Film with name like The wolf found
+2021-07-18 14:34:45,014:WARNING:Film with name like The lonely soul not found
+2021-07-18 14:35:34,232:WARNING:Film with name like Drama not found
+2021-07-18 14:35:34,243:INFO:127.0.0.1 - - [18/Jul/2021 14:35:34] "[33mGET /api/films/Drama HTTP/1.1[0m" 404 -
+2021-07-18 14:35:58,464:WARNING:Film with name like Crime not found
+2021-07-18 14:35:58,482:INFO:127.0.0.1 - - [18/Jul/2021 14:35:58] "[33mGET /api/films/Crime HTTP/1.1[0m" 404 -
+2021-07-18 14:36:14,295:WARNING:Film with name like Crime not found
+2021-07-18 14:36:14,312:INFO:127.0.0.1 - - [18/Jul/2021 14:36:14] "[33mGET /api/films/Crime HTTP/1.1[0m" 404 -
+2021-07-18 11:36:48,098:INFO: * Detected change in '/usr/src/app/project/__init__.py', reloading
+2021-07-18 14:36:48,318:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/project/__init__.py', reloading
+2021-07-18 14:36:50,424:INFO: * Restarting with stat
+2021-07-18 11:36:58,500:WARNING: * Debugger is active!
+2021-07-18 11:36:58,502:INFO: * Debugger PIN: 120-141-584
+2021-07-18 14:36:59,501:WARNING: * Debugger is active!
+2021-07-18 14:36:59,508:INFO: * Debugger PIN: 310-025-136
+2021-07-18 14:37:05,145:INFO:127.0.0.1 - - [18/Jul/2021 14:37:05] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-18 14:37:05,768:INFO:127.0.0.1 - - [18/Jul/2021 14:37:05] "[37mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 200 -
+2021-07-18 14:37:05,781:INFO:127.0.0.1 - - [18/Jul/2021 14:37:05] "[37mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 200 -
+2021-07-18 14:37:05,869:INFO:127.0.0.1 - - [18/Jul/2021 14:37:05] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021-07-18 14:37:05,870:INFO:127.0.0.1 - - [18/Jul/2021 14:37:05] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021-07-18 14:37:06,793:INFO:127.0.0.1 - - [18/Jul/2021 14:37:06] "[37mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 200 -
+2021-07-18 14:37:08,734:INFO:127.0.0.1 - - [18/Jul/2021 14:37:08] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-18 14:37:52,235:INFO:Returning all films of genre Crime
+2021-07-18 14:37:52,249:INFO:127.0.0.1 - - [18/Jul/2021 14:37:52] "[37mGET /api/films/genres/Crime HTTP/1.1[0m" 200 -
+2021-07-18 14:38:13,121:INFO:Film with name like The found
+2021-07-18 14:38:13,126:INFO:127.0.0.1 - - [18/Jul/2021 14:38:13] "[37mGET /api/films/The HTTP/1.1[0m" 200 -
+2021-07-18 14:38:27,868:INFO:Film with id = 7 not found
+2021-07-18 14:38:27,907:WARNING:Film with id = 105 not found
+2021-07-18 14:38:27,962:INFO:Returning all films of genre Drama
+2021-07-18 14:38:27,995:WARNING:No films were found by genre Science_Fiction
+2021-07-18 14:38:28,032:INFO:Film with name like The wolf found
+2021-07-18 14:38:28,051:WARNING:Film with name like The lonely soul not found
+2021-07-18 14:55:53,139:ERROR:Exception on /api/films/director-film/ [GET]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 247, in get
+    director_name = request.json["director_name"]
+TypeError: 'NoneType' object is not subscriptable
+2021-07-18 14:55:53,648:INFO:Film with id = 7 not found
+2021-07-18 14:55:53,673:WARNING:Film with id = 105 not found
+2021-07-18 14:55:53,752:INFO:Returning all films of genre Drama
+2021-07-18 14:55:53,792:WARNING:No films were found by genre Science_Fiction
+2021-07-18 14:55:53,844:INFO:Film with name like The wolf found
+2021-07-18 14:55:53,877:WARNING:Film with name like The lonely soul not found
+2021-07-18 14:56:42,749:INFO:Returning films of director Guy Ritchie
+2021-07-18 14:56:42,752:INFO:127.0.0.1 - - [18/Jul/2021 14:56:42] "[37mGET /api/films/director-film/ HTTP/1.1[0m" 200 -
+2021-07-18 15:01:55,981:ERROR:Exception on /api/films/director-film/ [GET]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 247, in get
+    director_name = request.json["director_name"]
+TypeError: 'NoneType' object is not subscriptable
+2021-07-18 15:01:56,650:INFO:Film with id = 7 not found
+2021-07-18 15:01:56,676:WARNING:Film with id = 105 not found
+2021-07-18 15:01:56,744:INFO:Returning all films of genre Drama
+2021-07-18 15:01:56,795:WARNING:No films were found by genre Science_Fiction
+2021-07-18 15:01:56,884:INFO:Film with name like The wolf found
+2021-07-18 15:01:56,940:WARNING:Film with name like The lonely soul not found
+2021-07-18 15:05:45,982:ERROR:Exception on /api/films/director-film/ [GET]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 247, in get
+    director_name = request.json["director_name"]
+TypeError: 'NoneType' object is not subscriptable
+2021-07-18 15:05:46,418:INFO:Film with id = 7 not found
+2021-07-18 15:05:46,468:WARNING:Film with id = 105 not found
+2021-07-18 15:05:46,572:INFO:Returning all films of genre Drama
+2021-07-18 15:05:46,619:WARNING:No films were found by genre Science_Fiction
+2021-07-18 15:05:46,689:INFO:Film with name like The wolf found
+2021-07-18 15:05:46,765:WARNING:Film with name like The lonely soul not found
+2021-07-18 15:06:32,118:ERROR:Exception on /api/films/director-film/ [GET]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 247, in get
+    director_name = request.json["director_name"]
+TypeError: 'NoneType' object is not subscriptable
+2021-07-18 15:06:32,640:INFO:Film with id = 7 not found
+2021-07-18 15:06:32,679:WARNING:Film with id = 105 not found
+2021-07-18 15:06:32,762:INFO:Returning all films of genre Drama
+2021-07-18 15:06:32,796:WARNING:No films were found by genre Science_Fiction
+2021-07-18 15:06:32,860:INFO:Film with name like The wolf found
+2021-07-18 15:06:32,886:WARNING:Film with name like The lonely soul not found
+2021-07-18 15:09:01,522:ERROR:Exception on /api/films/director-film/ [GET]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 247, in get
+    director_name = request.json["director_name"]
+TypeError: 'NoneType' object is not subscriptable
+2021-07-18 15:09:01,791:INFO:Film with id = 7 not found
+2021-07-18 15:09:01,805:WARNING:Film with id = 105 not found
+2021-07-18 15:09:01,908:INFO:Returning all films of genre Drama
+2021-07-18 15:09:01,939:WARNING:No films were found by genre Science_Fiction
+2021-07-18 15:09:01,992:INFO:Film with name like The wolf found
+2021-07-18 15:09:02,023:WARNING:Film with name like The lonely soul not found
+2021-07-18 15:09:40,480:ERROR:Exception on /api/films/director-film/ [GET]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 247, in get
+    director_name = request.json["director_name"]
+TypeError: 'NoneType' object is not subscriptable
+2021-07-18 15:09:40,751:INFO:Film with id = 7 not found
+2021-07-18 15:09:40,771:WARNING:Film with id = 105 not found
+2021-07-18 15:09:40,833:INFO:Returning all films of genre Drama
+2021-07-18 15:09:40,884:WARNING:No films were found by genre Science_Fiction
+2021-07-18 15:09:40,946:INFO:Film with name like The wolf found
+2021-07-18 15:09:40,973:WARNING:Film with name like The lonely soul not found
+2021-07-18 15:12:28,015:INFO:127.0.0.1 - - [18/Jul/2021 15:12:28] "[35m[1mGET /api/films/director-film/?director_name=%3CGuy%3E&director_surname=%3CRitchie%3E HTTP/1.1[0m" 500 -
+2021-07-18 15:12:28,552:INFO:127.0.0.1 - - [18/Jul/2021 15:12:28] "[37mGET /api/films/director-film/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-07-18 15:12:28,555:INFO:127.0.0.1 - - [18/Jul/2021 15:12:28] "[37mGET /api/films/director-film/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-07-18 15:12:28,586:INFO:127.0.0.1 - - [18/Jul/2021 15:12:28] "[37mGET /api/films/director-film/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-07-18 15:12:29,291:INFO:127.0.0.1 - - [18/Jul/2021 15:12:29] "[37mGET /api/films/director-film/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-07-18 15:12:30,492:INFO:127.0.0.1 - - [18/Jul/2021 15:12:30] "[37mGET /api/films/director-film/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-07-18 15:20:53,984:INFO:Returning films of director Guy Ritchie
+2021-07-18 15:20:54,012:INFO:Film with id = 7 not found
+2021-07-18 15:20:54,031:WARNING:Film with id = 105 not found
+2021-07-18 15:20:54,129:INFO:Returning all films of genre Drama
+2021-07-18 15:20:54,176:WARNING:No films were found by genre Science_Fiction
+2021-07-18 15:20:54,215:INFO:Film with name like The wolf found
+2021-07-18 15:20:54,239:WARNING:Film with name like The lonely soul not found
+2021-07-19 11:21:51,429:INFO:Returning films of director Guy Ritchie
+2021-07-19 11:21:51,512:INFO:Film with id = 7 not found
+2021-07-19 11:21:51,546:WARNING:Film with id = 105 not found
+2021-07-19 11:21:51,576:INFO:Returning all films of genre Drama
+2021-07-19 11:21:51,586:WARNING:No films were found by genre Science_Fiction
+2021-07-19 11:21:51,702:INFO:Film with name like The wolf found
+2021-07-19 11:21:51,705:WARNING:Film with name like The lonely soul not found
+2021-07-19 11:24:04,280:INFO:Returning films of director Guy Ritchie
+2021-07-19 11:24:04,296:INFO:Returning films of director with id: 5
+2021-07-19 11:24:04,305:INFO:Film with id = 7 not found
+2021-07-19 11:24:04,335:WARNING:Film with id = 105 not found
+2021-07-19 11:24:04,355:INFO:Returning all films of genre Drama
+2021-07-19 11:24:04,366:WARNING:No films were found by genre Science_Fiction
+2021-07-19 11:24:04,371:INFO:Film with name like The wolf found
+2021-07-19 11:24:04,381:WARNING:Film with name like The lonely soul not found
+2021-07-19 11:25:29,289:INFO:Returning films of director Guy Ritchie
+2021-07-19 11:25:29,304:WARNING:No films were found by director Some Director
+2021-07-19 11:25:29,321:INFO:Returning films of director with id: 5
+2021-07-19 11:25:29,331:WARNING:No films were found by this director id 99
+2021-07-19 11:25:29,344:INFO:Film with id = 7 not found
+2021-07-19 11:25:29,352:WARNING:Film with id = 105 not found
+2021-07-19 11:25:29,369:INFO:Returning all films of genre Drama
+2021-07-19 11:25:29,379:WARNING:No films were found by genre Science_Fiction
+2021-07-19 11:25:29,390:INFO:Film with name like The wolf found
+2021-07-19 11:25:29,398:WARNING:Film with name like The lonely soul not found
+2021-07-19 11:43:00,276:INFO:127.0.0.1 - - [19/Jul/2021 11:43:00] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-19 11:43:00,621:INFO:127.0.0.1 - - [19/Jul/2021 11:43:00] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2021-07-19 11:43:00,622:INFO:127.0.0.1 - - [19/Jul/2021 11:43:00] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2021-07-19 11:43:00,637:INFO:127.0.0.1 - - [19/Jul/2021 11:43:00] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021-07-19 11:43:00,654:INFO:127.0.0.1 - - [19/Jul/2021 11:43:00] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021-07-19 11:43:02,626:INFO:127.0.0.1 - - [19/Jul/2021 11:43:02] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-19 11:55:09,279:INFO:Returning films of director Guy Ritchie
+2021-07-19 11:55:09,300:WARNING:No films were found by director Some Director
+2021-07-19 11:55:09,314:INFO:Returning films of director with id: 5
+2021-07-19 11:55:09,321:WARNING:No films were found by this director id 99
+2021-07-19 11:55:09,334:INFO:Film with id = 7 not found
+2021-07-19 11:55:09,338:WARNING:Film with id = 105 not found
+2021-07-19 11:55:09,371:INFO:Returning all films of genre Drama
+2021-07-19 11:55:09,397:WARNING:No films were found by genre Science_Fiction
+2021-07-19 11:55:09,415:INFO:Film with name like The wolf found
+2021-07-19 11:55:09,432:WARNING:Film with name like The lonely soul not found
+2021-07-19 11:55:24,565:INFO:Setting director id None for film Kind Kitty
+2021-07-19 11:55:24,567:INFO:Setting director id None for film Angry Cat
+2021-07-19 11:55:24,567:INFO:Returning all films
+2021-07-19 11:55:24,569:INFO:127.0.0.1 - - [19/Jul/2021 11:55:24] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-19 11:55:37,018:INFO:Setting director id None for film Kind Kitty
+2021-07-19 11:55:37,018:INFO:Setting director id None for film Angry Cat
+2021-07-19 11:55:37,018:INFO:Returning all films
+2021-07-19 11:55:37,025:INFO:127.0.0.1 - - [19/Jul/2021 11:55:37] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 11:56:22,025:INFO:Setting director id None for film Kind Kitty
+2021-07-19 11:56:22,025:INFO:Setting director id None for film Angry Cat
+2021-07-19 11:56:22,025:INFO:Returning all films
+2021-07-19 11:56:22,031:INFO:127.0.0.1 - - [19/Jul/2021 11:56:22] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-19 11:57:04,075:INFO:127.0.0.1 - - [19/Jul/2021 11:57:04] "[35m[1mGET /api/film/ HTTP/1.1[0m" 500 -
+2021-07-19 11:57:49,993:WARNING:Film with id = 39 not found
+2021-07-19 11:57:49,995:INFO:127.0.0.1 - - [19/Jul/2021 11:57:49] "[33mGET /api/films/39 HTTP/1.1[0m" 404 -
+2021-07-19 11:58:06,497:WARNING:Film with id = 40 not found
+2021-07-19 11:58:06,508:INFO:127.0.0.1 - - [19/Jul/2021 11:58:06] "[33mGET /api/films/40 HTTP/1.1[0m" 404 -
+2021-07-19 11:58:16,313:WARNING:Film with id = 38 not found
+2021-07-19 11:58:16,317:INFO:127.0.0.1 - - [19/Jul/2021 11:58:16] "[33mGET /api/films/38 HTTP/1.1[0m" 404 -
+2021-07-19 11:58:24,850:INFO:Showing films to user
+2021-07-19 11:58:24,904:INFO:127.0.0.1 - - [19/Jul/2021 11:58:24] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-07-19 11:58:25,383:INFO:127.0.0.1 - - [19/Jul/2021 11:58:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-07-19 11:58:28,671:INFO:Showing films to user
+2021-07-19 11:58:28,691:INFO:127.0.0.1 - - [19/Jul/2021 11:58:28] "[37mGET /home?page=2 HTTP/1.1[0m" 200 -
+2021-07-19 11:58:41,966:INFO:Showing films to user
+2021-07-19 11:58:41,972:INFO:127.0.0.1 - - [19/Jul/2021 11:58:41] "[37mGET /home?page=1 HTTP/1.1[0m" 200 -
+2021-07-19 12:03:18,752:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:03:18,766:WARNING:No films were found by director Some Director
+2021-07-19 12:03:18,779:INFO:Returning films of director with id: 5
+2021-07-19 12:03:18,790:WARNING:No films were found by this director id 99
+2021-07-19 12:03:18,803:INFO:Film with id = 7 not found
+2021-07-19 12:03:18,827:WARNING:Film with id = 105 not found
+2021-07-19 12:03:18,851:INFO:Returning all films of genre Drama
+2021-07-19 12:03:18,861:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:03:18,875:INFO:Film with name like The wolf found
+2021-07-19 12:03:18,879:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:04:03,574:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:04:03,594:WARNING:No films were found by director Some Director
+2021-07-19 12:04:03,625:INFO:Returning films of director with id: 5
+2021-07-19 12:04:03,629:WARNING:No films were found by this director id 99
+2021-07-19 12:04:03,670:INFO:Film with id = 7 not found
+2021-07-19 12:04:03,692:WARNING:Film with id = 105 not found
+2021-07-19 12:04:03,744:INFO:Returning all films of genre Drama
+2021-07-19 12:04:03,770:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:04:03,794:INFO:Film with name like The wolf found
+2021-07-19 12:04:03,808:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:06:17,202:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:06:17,229:WARNING:No films were found by director Some Director
+2021-07-19 12:06:17,264:INFO:Returning films of director with id: 5
+2021-07-19 12:06:17,283:WARNING:No films were found by this director id 99
+2021-07-19 12:06:17,317:INFO:Film with id = 7 not found
+2021-07-19 12:06:17,331:WARNING:Film with id = 105 not found
+2021-07-19 12:06:17,376:INFO:Returning all films of genre Drama
+2021-07-19 12:06:17,405:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:06:17,426:INFO:Film with name like The wolf found
+2021-07-19 12:06:17,450:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:06:37,383:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:06:37,398:WARNING:No films were found by director Some Director
+2021-07-19 12:06:37,425:INFO:Returning films of director with id: 5
+2021-07-19 12:06:37,430:WARNING:No films were found by this director id 99
+2021-07-19 12:06:37,469:INFO:Film with id = 7 not found
+2021-07-19 12:06:37,485:WARNING:Film with id = 105 not found
+2021-07-19 12:06:37,538:INFO:Returning all films of genre Drama
+2021-07-19 12:06:37,551:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:06:37,566:INFO:Film with name like The wolf found
+2021-07-19 12:06:37,581:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:08:12,514:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:08:12,524:WARNING:No films were found by director Some Director
+2021-07-19 12:08:12,537:INFO:Returning films of director with id: 5
+2021-07-19 12:08:12,547:WARNING:No films were found by this director id 99
+2021-07-19 12:08:12,563:INFO:Film with id = 7 not found
+2021-07-19 12:08:12,570:WARNING:Film with id = 105 not found
+2021-07-19 12:08:12,605:INFO:Returning all films of genre Drama
+2021-07-19 12:08:12,617:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:08:12,642:INFO:Film with name like The wolf found
+2021-07-19 12:08:12,655:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:10:42,573:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:10:42,588:WARNING:No films were found by director Some Director
+2021-07-19 12:10:42,614:INFO:Returning films of director with id: 5
+2021-07-19 12:10:42,622:WARNING:No films were found by this director id 99
+2021-07-19 12:10:42,651:INFO:Film with id = 7 not found
+2021-07-19 12:10:42,669:WARNING:Film with id = 105 not found
+2021-07-19 12:10:42,692:INFO:Returning all films of genre Drama
+2021-07-19 12:10:42,696:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:10:42,709:INFO:Film with name like The wolf found
+2021-07-19 12:10:42,714:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:12:57,343:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:12:57,375:WARNING:No films were found by director Some Director
+2021-07-19 12:12:57,399:INFO:Returning films of director with id: 5
+2021-07-19 12:12:57,411:WARNING:No films were found by this director id 99
+2021-07-19 12:12:57,433:INFO:Film with id = 7 not found
+2021-07-19 12:12:57,451:WARNING:Film with id = 105 not found
+2021-07-19 12:12:57,489:INFO:Returning all films of genre Drama
+2021-07-19 12:12:57,516:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:12:57,540:INFO:Film with name like The wolf found
+2021-07-19 12:12:57,564:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:14:10,570:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:14:10,584:WARNING:No films were found by director Some Director
+2021-07-19 12:14:10,594:INFO:Returning films of director with id: 5
+2021-07-19 12:14:10,604:WARNING:No films were found by this director id 99
+2021-07-19 12:14:10,638:INFO:Film with id = 7 not found
+2021-07-19 12:14:10,658:WARNING:Film with id = 105 not found
+2021-07-19 12:14:10,705:INFO:Returning all films of genre Drama
+2021-07-19 12:14:10,730:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:14:10,757:INFO:Film with name like The wolf found
+2021-07-19 12:14:10,782:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:14:34,978:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:14:34,985:WARNING:No films were found by director Some Director
+2021-07-19 12:14:35,009:INFO:Returning films of director with id: 5
+2021-07-19 12:14:35,022:WARNING:No films were found by this director id 99
+2021-07-19 12:14:35,035:INFO:Film with id = 7 not found
+2021-07-19 12:14:35,045:WARNING:Film with id = 105 not found
+2021-07-19 12:14:35,085:INFO:Returning all films of genre Drama
+2021-07-19 12:14:35,105:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:14:35,129:INFO:Film with name like The wolf found
+2021-07-19 12:14:35,146:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:21:37,253:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:21:37,270:WARNING:No films were found by director Some Director
+2021-07-19 12:21:37,285:INFO:Returning films of director with id: 5
+2021-07-19 12:21:37,297:WARNING:No films were found by this director id 99
+2021-07-19 12:21:37,314:INFO:Film with id = 7 not found
+2021-07-19 12:21:37,327:WARNING:Film with id = 105 not found
+2021-07-19 12:21:37,362:INFO:Returning all films of genre Drama
+2021-07-19 12:21:37,383:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:21:37,404:INFO:Film with name like The wolf found
+2021-07-19 12:21:37,416:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:23:11,714:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:23:11,727:WARNING:No films were found by director Some Director
+2021-07-19 12:23:11,739:INFO:Returning films of director with id: 5
+2021-07-19 12:23:11,747:WARNING:No films were found by this director id 99
+2021-07-19 12:23:11,757:INFO:Film with id = 7 not found
+2021-07-19 12:23:11,769:WARNING:Film with id = 105 not found
+2021-07-19 12:23:11,796:INFO:Returning all films of genre Drama
+2021-07-19 12:23:11,807:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:23:11,835:INFO:Film with name like The wolf found
+2021-07-19 12:23:11,850:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:23:59,884:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:23:59,893:WARNING:No films were found by director Some Director
+2021-07-19 12:23:59,913:INFO:Returning films of director with id: 5
+2021-07-19 12:23:59,920:WARNING:No films were found by this director id 99
+2021-07-19 12:23:59,962:INFO:Film with id = 7 not found
+2021-07-19 12:23:59,986:WARNING:Film with id = 105 not found
+2021-07-19 12:24:00,037:INFO:Returning all films of genre Drama
+2021-07-19 12:24:00,061:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:24:00,090:INFO:Film with name like The wolf found
+2021-07-19 12:24:00,113:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:26:08,267:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:26:08,283:WARNING:No films were found by director Some Director
+2021-07-19 12:26:08,315:INFO:Returning films of director with id: 5
+2021-07-19 12:26:08,328:WARNING:No films were found by this director id 99
+2021-07-19 12:26:08,353:INFO:Film with id = 7 not found
+2021-07-19 12:26:08,366:WARNING:Film with id = 105 not found
+2021-07-19 12:26:08,385:INFO:Returning all films of genre Drama
+2021-07-19 12:26:08,397:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:26:08,407:INFO:Film with name like The wolf found
+2021-07-19 12:26:08,425:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:26:31,704:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:26:31,733:WARNING:No films were found by director Some Director
+2021-07-19 12:26:31,760:INFO:Returning films of director with id: 5
+2021-07-19 12:26:31,772:WARNING:No films were found by this director id 99
+2021-07-19 12:26:31,812:INFO:Film with id = 7 not found
+2021-07-19 12:26:31,826:WARNING:Film with id = 105 not found
+2021-07-19 12:26:31,854:INFO:Returning all films of genre Drama
+2021-07-19 12:26:31,861:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:26:31,877:INFO:Film with name like The wolf found
+2021-07-19 12:26:31,888:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:27:51,185:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:27:51,205:WARNING:No films were found by director Some Director
+2021-07-19 12:27:51,220:INFO:Returning films of director with id: 5
+2021-07-19 12:27:51,237:WARNING:No films were found by this director id 99
+2021-07-19 12:27:51,257:INFO:Film with id = 7 not found
+2021-07-19 12:27:51,264:WARNING:Film with id = 105 not found
+2021-07-19 12:27:51,298:INFO:Returning all films of genre Drama
+2021-07-19 12:27:51,320:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:27:51,340:INFO:Film with name like The wolf found
+2021-07-19 12:27:51,344:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:27:51,373:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 12:27:51,373:ERROR:Exception on /api/film/ [POST]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_httpauth.py", line 176, in decorated
+    return f(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 96, in post
+    director_name = request.json.get("director_name")
+AttributeError: 'NoneType' object has no attribute 'get'
+2021-07-19 12:37:04,497:INFO:Returning films of director Guy Ritchie
+2021-07-19 12:37:04,515:WARNING:No films were found by director Some Director
+2021-07-19 12:37:04,529:INFO:Returning films of director with id: 5
+2021-07-19 12:37:04,533:WARNING:No films were found by this director id 99
+2021-07-19 12:37:04,549:INFO:Film with id = 7 not found
+2021-07-19 12:37:04,555:WARNING:Film with id = 105 not found
+2021-07-19 12:37:04,598:INFO:Returning all films of genre Drama
+2021-07-19 12:37:04,617:WARNING:No films were found by genre Science_Fiction
+2021-07-19 12:37:04,633:INFO:Film with name like The wolf found
+2021-07-19 12:37:04,650:WARNING:Film with name like The lonely soul not found
+2021-07-19 12:37:04,673:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 12:37:05,080:INFO:Film Wonder Cat was created.
+2021-07-19 12:37:11,139:INFO:Showing films to user
+2021-07-19 12:37:11,142:INFO:127.0.0.1 - - [19/Jul/2021 12:37:11] "[37mGET /home?page=1 HTTP/1.1[0m" 200 -
+2021-07-19 12:37:15,440:INFO:Showing films to user
+2021-07-19 12:37:15,448:INFO:127.0.0.1 - - [19/Jul/2021 12:37:15] "[37mGET /home?page=2 HTTP/1.1[0m" 200 -
+2021-07-19 12:37:40,996:INFO:Setting director id None for film Kind Kitty
+2021-07-19 12:37:40,996:INFO:Setting director id None for film Angry Cat
+2021-07-19 12:37:40,996:INFO:Returning all films
+2021-07-19 12:37:40,997:INFO:127.0.0.1 - - [19/Jul/2021 12:37:40] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 12:37:53,192:INFO:Film with id = 38 not found
+2021-07-19 12:37:53,194:INFO:127.0.0.1 - - [19/Jul/2021 12:37:53] "[37mGET /api/films/38 HTTP/1.1[0m" 200 -
+2021-07-19 12:38:14,615:INFO:Film Wonder Cat was deleted by Semen21 successfully
+2021-07-19 12:38:14,616:INFO:127.0.0.1 - - [19/Jul/2021 12:38:14] "[37mDELETE /api/films/38 HTTP/1.1[0m" 204 -
+2021-07-19 13:28:21,101:INFO:Showing films to user
+2021-07-19 13:28:21,102:INFO:127.0.0.1 - - [19/Jul/2021 13:28:21] "[37mGET /home?page=2 HTTP/1.1[0m" 200 -
+2021-07-19 13:29:17,628:INFO:Returning films of director Guy Ritchie
+2021-07-19 13:29:17,652:WARNING:No films were found by director Some Director
+2021-07-19 13:29:17,675:INFO:Returning films of director with id: 5
+2021-07-19 13:29:17,687:WARNING:No films were found by this director id 99
+2021-07-19 13:29:17,717:INFO:Film with id = 7 not found
+2021-07-19 13:29:17,724:WARNING:Film with id = 105 not found
+2021-07-19 13:29:17,768:INFO:Returning all films of genre Drama
+2021-07-19 13:29:17,792:WARNING:No films were found by genre Science_Fiction
+2021-07-19 13:29:17,835:INFO:Film with name like The wolf found
+2021-07-19 13:29:17,845:WARNING:Film with name like The lonely soul not found
+2021-07-19 13:29:17,876:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 13:29:18,129:INFO:Film Mysterious Cat was created.
+2021-07-19 13:29:22,298:INFO:Showing films to user
+2021-07-19 13:29:22,317:INFO:127.0.0.1 - - [19/Jul/2021 13:29:22] "[37mGET /home?page=2 HTTP/1.1[0m" 200 -
+2021-07-19 13:29:41,195:INFO:Film with name like Mys found
+2021-07-19 13:29:41,196:INFO:127.0.0.1 - - [19/Jul/2021 13:29:41] "[37mGET /api/films/Mys HTTP/1.1[0m" 200 -
+2021-07-19 13:29:55,030:INFO:Film Mysterious Cat was deleted by Semen21 successfully
+2021-07-19 13:29:55,031:INFO:127.0.0.1 - - [19/Jul/2021 13:29:55] "[37mDELETE /api/films/39 HTTP/1.1[0m" 204 -
+2021-07-19 15:19:51,929:INFO:Showing films to user
+2021-07-19 15:19:51,938:INFO:127.0.0.1 - - [19/Jul/2021 15:19:51] "[37mGET /home?page=2 HTTP/1.1[0m" 200 -
+2021-07-19 15:28:58,453:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:28:58,604:WARNING:No films were found by director Some Director
+2021-07-19 15:28:58,617:INFO:Returning films of director with id: 5
+2021-07-19 15:28:58,624:WARNING:No films were found by this director id 99
+2021-07-19 15:28:58,638:INFO:Film with id = 7 not found
+2021-07-19 15:28:58,650:WARNING:Film with id = 105 not found
+2021-07-19 15:28:58,707:INFO:Returning all films of genre Drama
+2021-07-19 15:28:58,713:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:28:58,798:INFO:Film with name like The wolf found
+2021-07-19 15:28:58,812:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:28:58,823:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 15:28:59,003:INFO:Film Mysterious Cat was created.
+2021-07-19 15:28:59,018:ERROR:Exception on /api/films/17 [PUT]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_httpauth.py", line 176, in decorated
+    return f(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 158, in put
+    if rating > 10 or rating < 1:
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+2021-07-19 15:28:59,335:INFO:Film was updated by user Semen21
+2021-07-19 15:31:19,211:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:31:19,260:WARNING:No films were found by director Some Director
+2021-07-19 15:31:19,273:INFO:Returning films of director with id: 5
+2021-07-19 15:31:19,289:WARNING:No films were found by this director id 99
+2021-07-19 15:31:19,303:INFO:Film with id = 7 not found
+2021-07-19 15:31:19,328:WARNING:Film with id = 105 not found
+2021-07-19 15:31:19,520:INFO:Returning all films of genre Drama
+2021-07-19 15:31:19,525:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:31:19,544:INFO:Film with name like The wolf found
+2021-07-19 15:31:19,554:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:31:19,598:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 15:31:19,625:WARNING:Film with name Mysterious Cat cannot be added because such film already exists
+2021-07-19 15:31:19,671:ERROR:Exception on /api/films/17 [PUT]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_httpauth.py", line 176, in decorated
+    return f(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 158, in put
+    if rating > 10 or rating < 1:
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+2021-07-19 15:31:19,744:INFO:Film was updated by user Semen21
+2021-07-19 15:32:27,789:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:32:27,875:WARNING:No films were found by director Some Director
+2021-07-19 15:32:27,890:INFO:Returning films of director with id: 5
+2021-07-19 15:32:27,894:WARNING:No films were found by this director id 99
+2021-07-19 15:32:27,911:INFO:Film with id = 7 not found
+2021-07-19 15:32:27,928:WARNING:Film with id = 105 not found
+2021-07-19 15:32:27,950:INFO:Returning all films of genre Drama
+2021-07-19 15:32:27,973:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:32:27,994:INFO:Film with name like The wolf found
+2021-07-19 15:32:28,012:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:32:28,033:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 15:32:28,043:WARNING:Film with name Mysterious Cat cannot be added because such film already exists
+2021-07-19 15:32:28,099:INFO:Film was updated by user Semen21
+2021-07-19 15:34:01,490:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:34:01,507:WARNING:No films were found by director Some Director
+2021-07-19 15:34:01,545:INFO:Returning films of director with id: 5
+2021-07-19 15:34:01,572:WARNING:No films were found by this director id 99
+2021-07-19 15:34:01,623:INFO:Film with id = 7 not found
+2021-07-19 15:34:01,649:WARNING:Film with id = 105 not found
+2021-07-19 15:34:01,676:INFO:Returning all films of genre Drama
+2021-07-19 15:34:01,697:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:34:01,711:INFO:Film with name like The wolf found
+2021-07-19 15:34:01,718:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:34:01,761:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 15:34:01,778:WARNING:Film with name Mysterious Cat cannot be added because such film already exists
+2021-07-19 15:34:01,871:INFO:Film was updated by user Semen21
+2021-07-19 15:34:30,805:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:34:30,830:WARNING:No films were found by director Some Director
+2021-07-19 15:34:30,851:INFO:Returning films of director with id: 5
+2021-07-19 15:34:30,866:WARNING:No films were found by this director id 99
+2021-07-19 15:34:30,896:INFO:Film with id = 7 not found
+2021-07-19 15:34:30,917:WARNING:Film with id = 105 not found
+2021-07-19 15:34:30,959:INFO:Returning all films of genre Drama
+2021-07-19 15:34:30,991:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:34:31,008:INFO:Film with name like The wolf found
+2021-07-19 15:34:31,018:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:34:31,087:INFO:Film was updated by user Semen21
+2021-07-19 15:35:02,961:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:35:02,978:WARNING:No films were found by director Some Director
+2021-07-19 15:35:02,992:INFO:Returning films of director with id: 5
+2021-07-19 15:35:02,997:WARNING:No films were found by this director id 99
+2021-07-19 15:35:03,017:INFO:Film with id = 7 not found
+2021-07-19 15:35:03,031:WARNING:Film with id = 105 not found
+2021-07-19 15:35:03,068:INFO:Returning all films of genre Drama
+2021-07-19 15:35:03,078:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:35:03,097:INFO:Film with name like The wolf found
+2021-07-19 15:35:03,116:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:36:13,188:INFO:Setting director id None for film Kind Kitty
+2021-07-19 15:36:13,188:INFO:Setting director id None for film Angry Cat
+2021-07-19 15:36:13,188:INFO:Returning all films
+2021-07-19 15:36:13,194:INFO:127.0.0.1 - - [19/Jul/2021 15:36:13] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 15:36:35,079:INFO:Setting director id None for film Kind Kitty
+2021-07-19 15:36:35,093:INFO:Setting director id None for film Angry Cat
+2021-07-19 15:36:35,094:INFO:Returning all films
+2021-07-19 15:36:35,095:INFO:127.0.0.1 - - [19/Jul/2021 15:36:35] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 15:37:43,364:INFO:Film with id = 17 not found
+2021-07-19 15:37:43,365:INFO:127.0.0.1 - - [19/Jul/2021 15:37:43] "[37mGET /api/films/17 HTTP/1.1[0m" 200 -
+2021-07-19 15:40:58,192:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:40:58,205:WARNING:No films were found by director Some Director
+2021-07-19 15:40:58,219:INFO:Returning films of director with id: 5
+2021-07-19 15:40:58,227:WARNING:No films were found by this director id 99
+2021-07-19 15:40:58,241:INFO:Film with id = 7 not found
+2021-07-19 15:40:58,256:WARNING:Film with id = 105 not found
+2021-07-19 15:40:58,286:INFO:Returning all films of genre Drama
+2021-07-19 15:40:58,299:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:40:58,315:INFO:Film with name like The wolf found
+2021-07-19 15:40:58,338:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:40:58,385:ERROR:Exception on /api/films/17 [PUT]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_httpauth.py", line 176, in decorated
+    return f(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 158, in put
+    if rating > 10 or rating < 1:
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+2021-07-19 15:43:33,910:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:43:33,918:WARNING:No films were found by director Some Director
+2021-07-19 15:43:33,935:INFO:Returning films of director with id: 5
+2021-07-19 15:43:33,941:WARNING:No films were found by this director id 99
+2021-07-19 15:43:33,970:INFO:Film with id = 7 not found
+2021-07-19 15:43:34,003:WARNING:Film with id = 105 not found
+2021-07-19 15:43:34,073:INFO:Returning all films of genre Drama
+2021-07-19 15:43:34,086:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:43:34,104:INFO:Film with name like The wolf found
+2021-07-19 15:43:34,123:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:43:34,193:INFO:Film was updated by user Semen21
+2021-07-19 15:44:32,830:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:44:32,845:WARNING:No films were found by director Some Director
+2021-07-19 15:44:32,858:INFO:Returning films of director with id: 5
+2021-07-19 15:44:32,863:WARNING:No films were found by this director id 99
+2021-07-19 15:44:32,878:INFO:Film with id = 7 not found
+2021-07-19 15:44:32,888:WARNING:Film with id = 105 not found
+2021-07-19 15:44:32,927:INFO:Returning all films of genre Drama
+2021-07-19 15:44:32,939:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:44:32,956:INFO:Film with name like The wolf found
+2021-07-19 15:44:32,961:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:44:32,987:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 15:44:32,998:WARNING:Film with name Mysterious Cat cannot be added because such film already exists
+2021-07-19 15:44:50,416:INFO:Showing films to user
+2021-07-19 15:44:50,456:INFO:127.0.0.1 - - [19/Jul/2021 15:44:50] "[37mGET /home?page=2 HTTP/1.1[0m" 200 -
+2021-07-19 15:44:50,676:INFO:127.0.0.1 - - [19/Jul/2021 15:44:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-07-19 15:44:56,284:INFO:Film with name like Mys found
+2021-07-19 15:44:56,288:INFO:127.0.0.1 - - [19/Jul/2021 15:44:56] "[37mGET /api/films/Mys HTTP/1.1[0m" 200 -
+2021-07-19 15:45:09,475:INFO:Film Mysterious Cat was deleted by Semen21 successfully
+2021-07-19 15:45:09,480:INFO:127.0.0.1 - - [19/Jul/2021 15:45:09] "[37mDELETE /api/films/40 HTTP/1.1[0m" 204 -
+2021-07-19 15:45:17,830:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:45:17,838:WARNING:No films were found by director Some Director
+2021-07-19 15:45:17,858:INFO:Returning films of director with id: 5
+2021-07-19 15:45:17,870:WARNING:No films were found by this director id 99
+2021-07-19 15:45:17,880:INFO:Film with id = 7 not found
+2021-07-19 15:45:17,890:WARNING:Film with id = 105 not found
+2021-07-19 15:45:17,916:INFO:Returning all films of genre Drama
+2021-07-19 15:45:17,925:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:45:17,945:INFO:Film with name like The wolf found
+2021-07-19 15:45:17,960:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:45:17,997:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 15:45:18,221:INFO:Film Mysterious Cat was created.
+2021-07-19 15:45:27,821:INFO:Film Mysterious Cat was deleted by Semen21 successfully
+2021-07-19 15:45:27,822:INFO:127.0.0.1 - - [19/Jul/2021 15:45:27] "[37mDELETE /api/films/41 HTTP/1.1[0m" 204 -
+2021-07-19 15:46:43,940:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:46:43,956:WARNING:No films were found by director Some Director
+2021-07-19 15:46:43,966:INFO:Returning films of director with id: 5
+2021-07-19 15:46:43,978:WARNING:No films were found by this director id 99
+2021-07-19 15:46:43,991:INFO:Film with id = 7 not found
+2021-07-19 15:46:43,995:WARNING:Film with id = 105 not found
+2021-07-19 15:46:44,039:INFO:Returning all films of genre Drama
+2021-07-19 15:46:44,056:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:46:44,074:INFO:Film with name like The wolf found
+2021-07-19 15:46:44,090:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:46:44,133:ERROR:Exception on /api/films/17 [PUT]
+Traceback (most recent call last):
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/api.py", line 397, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_restx/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/venv/lib/python3.8/site-packages/flask_httpauth.py", line 176, in decorated
+    return f(*args, **kwargs)
+  File "/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py", line 158, in put
+    if rating > 10 or rating < 1:
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+2021-07-19 15:46:58,201:INFO:Setting director id None for film Kind Kitty
+2021-07-19 15:46:58,205:INFO:Setting director id None for film Angry Cat
+2021-07-19 15:46:58,205:INFO:Returning all films
+2021-07-19 15:46:58,218:INFO:127.0.0.1 - - [19/Jul/2021 15:46:58] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 15:47:45,322:INFO:127.0.0.1 - - [19/Jul/2021 15:47:45] "[35m[1mPUT /api/films/17 HTTP/1.1[0m" 500 -
+2021-07-19 15:48:49,984:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py', reloading
+2021-07-19 15:48:50,757:INFO: * Restarting with stat
+2021-07-19 12:48:51,539:INFO: * Detected change in '/usr/src/app/project/film_resources.py', reloading
+2021-07-19 15:48:55,373:WARNING: * Debugger is active!
+2021-07-19 15:48:55,398:INFO: * Debugger PIN: 310-025-136
+2021-07-19 15:48:55,515:INFO:Film was updated by user Oleg97
+2021-07-19 15:48:55,519:INFO:127.0.0.1 - - [19/Jul/2021 15:48:55] "[37mPUT /api/films/17 HTTP/1.1[0m" 200 -
+2021-07-19 15:49:14,382:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:49:14,421:WARNING:No films were found by director Some Director
+2021-07-19 15:49:14,435:INFO:Returning films of director with id: 5
+2021-07-19 15:49:14,458:WARNING:No films were found by this director id 99
+2021-07-19 15:49:14,474:INFO:Film with id = 7 not found
+2021-07-19 15:49:14,482:WARNING:Film with id = 105 not found
+2021-07-19 15:49:14,523:INFO:Returning all films of genre Drama
+2021-07-19 15:49:14,547:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:49:14,571:INFO:Film with name like The wolf found
+2021-07-19 15:49:14,603:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:49:14,739:INFO:Film was updated by user Oleg97
+2021-07-19 12:49:19,304:WARNING: * Debugger is active!
+2021-07-19 12:49:19,501:INFO: * Debugger PIN: 120-141-584
+2021-07-19 15:58:02,883:INFO:Returning films of director Guy Ritchie
+2021-07-19 15:58:02,928:WARNING:No films were found by director Some Director
+2021-07-19 15:58:02,962:INFO:Returning films of director with id: 5
+2021-07-19 15:58:02,982:WARNING:No films were found by this director id 99
+2021-07-19 15:58:03,016:INFO:Film with id = 7 not found
+2021-07-19 15:58:03,045:WARNING:Film with id = 105 not found
+2021-07-19 15:58:03,104:INFO:Returning all films of genre Drama
+2021-07-19 15:58:03,135:WARNING:No films were found by genre Science_Fiction
+2021-07-19 15:58:03,173:INFO:Film with name like The wolf found
+2021-07-19 15:58:03,206:WARNING:Film with name like The lonely soul not found
+2021-07-19 15:58:03,227:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 15:58:03,359:INFO:Film Mysterious Cat was created.
+2021-07-19 15:58:03,390:INFO:Film was updated by user Semen21
+2021-07-19 15:59:14,847:INFO:Film with name like Mys found
+2021-07-19 15:59:14,851:INFO:127.0.0.1 - - [19/Jul/2021 15:59:14] "[37mGET /api/films/Mys HTTP/1.1[0m" 200 -
+2021-07-19 15:59:29,984:INFO:Film Mysterious Cat was deleted by Semen21 successfully
+2021-07-19 15:59:30,001:INFO:127.0.0.1 - - [19/Jul/2021 15:59:30] "[37mDELETE /api/films/42 HTTP/1.1[0m" 204 -
+2021-07-19 15:59:39,418:INFO:Setting director id None for film Kind Kitty
+2021-07-19 15:59:39,434:INFO:Setting director id None for film Angry Cat
+2021-07-19 15:59:39,434:INFO:Returning all films
+2021-07-19 15:59:39,438:INFO:127.0.0.1 - - [19/Jul/2021 15:59:39] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 16:00:19,345:INFO:Returning films of director Guy Ritchie
+2021-07-19 16:00:19,360:WARNING:No films were found by director Some Director
+2021-07-19 16:00:19,375:INFO:Returning films of director with id: 5
+2021-07-19 16:00:19,381:WARNING:No films were found by this director id 99
+2021-07-19 16:00:19,398:INFO:Film with id = 7 not found
+2021-07-19 16:00:19,414:WARNING:Film with id = 105 not found
+2021-07-19 16:00:19,438:INFO:Returning all films of genre Drama
+2021-07-19 16:00:19,450:WARNING:No films were found by genre Science_Fiction
+2021-07-19 16:00:19,476:INFO:Film with name like The wolf found
+2021-07-19 16:00:19,497:WARNING:Film with name like The lonely soul not found
+2021-07-19 16:00:19,527:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 16:00:19,762:INFO:Film Mysterious Cat was created.
+2021-07-19 16:00:19,831:INFO:Film was updated by user Oleg97
+2021-07-19 16:00:19,885:INFO:Film was updated by user Semen21
+2021-07-19 17:11:30,310:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:11:30,322:WARNING:No films were found by director Some Director
+2021-07-19 17:11:30,337:INFO:Returning films of director with id: 5
+2021-07-19 17:11:30,341:WARNING:No films were found by this director id 99
+2021-07-19 17:11:30,353:INFO:Film with id = 7 not found
+2021-07-19 17:11:30,364:WARNING:Film with id = 105 not found
+2021-07-19 17:11:30,380:INFO:Returning all films of genre Drama
+2021-07-19 17:11:30,390:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:11:30,402:INFO:Film with name like The wolf found
+2021-07-19 17:11:30,410:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:11:30,433:INFO:Film was updated by user Viktor29
+2021-07-19 17:12:26,870:INFO:Setting director id None for film Kind Kitty
+2021-07-19 17:12:26,871:INFO:Setting director id None for film Angry Cat
+2021-07-19 17:12:26,871:INFO:Returning all films
+2021-07-19 17:12:26,872:INFO:127.0.0.1 - - [19/Jul/2021 17:12:26] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 17:13:16,282:INFO:Film was updated by user Viktor29
+2021-07-19 17:13:16,285:INFO:127.0.0.1 - - [19/Jul/2021 17:13:16] "[37mPUT /api/films/17 HTTP/1.1[0m" 200 -
+2021-07-19 17:13:51,705:INFO:Setting director id None for film Kind Kitty
+2021-07-19 17:13:51,705:INFO:Setting director id None for film Angry Cat
+2021-07-19 17:13:51,705:INFO:Returning all films
+2021-07-19 17:13:51,707:INFO:127.0.0.1 - - [19/Jul/2021 17:13:51] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 17:16:48,041:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-19 17:16:48,055:INFO: * Restarting with stat
+2021-07-19 17:16:49,139:WARNING: * Debugger is active!
+2021-07-19 17:16:49,140:INFO: * Debugger PIN: 310-025-136
+2021-07-19 17:17:49,980:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py', reloading
+2021-07-19 14:17:50,095:INFO: * Detected change in '/usr/src/app/project/film_resources.py', reloading
+2021-07-19 17:17:50,456:INFO: * Restarting with stat
+2021-07-19 17:17:57,036:WARNING: * Debugger is active!
+2021-07-19 17:17:57,046:INFO: * Debugger PIN: 310-025-136
+2021-07-19 14:17:57,254:WARNING: * Debugger is active!
+2021-07-19 14:17:57,313:INFO: * Debugger PIN: 120-141-584
+2021-07-19 17:17:57,632:INFO:127.0.0.1 - - [19/Jul/2021 17:17:57] "[31m[1mPUT /api/films/17 HTTP/1.1[0m" 403 -
+2021-07-19 17:18:15,244:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:18:15,285:WARNING:No films were found by director Some Director
+2021-07-19 17:18:15,324:INFO:Returning films of director with id: 5
+2021-07-19 17:18:15,342:WARNING:No films were found by this director id 99
+2021-07-19 17:18:15,369:INFO:Film with id = 7 not found
+2021-07-19 17:18:15,387:WARNING:Film with id = 105 not found
+2021-07-19 17:18:15,430:INFO:Returning all films of genre Drama
+2021-07-19 17:18:15,440:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:18:15,458:INFO:Film with name like The wolf found
+2021-07-19 17:18:15,477:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:21:49,845:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:21:49,856:WARNING:No films were found by director Some Director
+2021-07-19 17:21:49,877:INFO:Returning films of director with id: 5
+2021-07-19 17:21:49,894:WARNING:No films were found by this director id 99
+2021-07-19 17:21:49,919:INFO:Film with id = 7 not found
+2021-07-19 17:21:49,928:WARNING:Film with id = 105 not found
+2021-07-19 17:21:49,963:INFO:Returning all films of genre Drama
+2021-07-19 17:21:49,985:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:21:50,023:INFO:Film with name like The wolf found
+2021-07-19 17:21:50,039:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:22:21,974:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:22:21,983:WARNING:No films were found by director Some Director
+2021-07-19 17:22:22,011:INFO:Returning films of director with id: 5
+2021-07-19 17:22:22,043:WARNING:No films were found by this director id 99
+2021-07-19 17:22:22,076:INFO:Film with id = 7 not found
+2021-07-19 17:22:22,086:WARNING:Film with id = 105 not found
+2021-07-19 17:22:22,107:INFO:Returning all films of genre Drama
+2021-07-19 17:22:22,123:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:22:22,160:INFO:Film with name like The wolf found
+2021-07-19 17:22:22,181:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:22:22,296:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:23:02,009:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:23:02,028:WARNING:No films were found by director Some Director
+2021-07-19 17:23:02,043:INFO:Returning films of director with id: 5
+2021-07-19 17:23:02,047:WARNING:No films were found by this director id 99
+2021-07-19 17:23:02,071:INFO:Film with id = 7 not found
+2021-07-19 17:23:02,075:WARNING:Film with id = 105 not found
+2021-07-19 17:23:02,123:INFO:Returning all films of genre Drama
+2021-07-19 17:23:02,135:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:23:02,164:INFO:Film with name like The wolf found
+2021-07-19 17:23:02,178:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:23:02,320:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:26:30,756:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:26:30,770:WARNING:No films were found by director Some Director
+2021-07-19 17:26:30,776:INFO:Returning films of director with id: 5
+2021-07-19 17:26:30,793:WARNING:No films were found by this director id 99
+2021-07-19 17:26:30,809:INFO:Film with id = 7 not found
+2021-07-19 17:26:30,823:WARNING:Film with id = 105 not found
+2021-07-19 17:26:30,849:INFO:Returning all films of genre Drama
+2021-07-19 17:26:30,861:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:26:30,885:INFO:Film with name like The wolf found
+2021-07-19 17:26:30,904:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:26:31,020:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:29:36,669:INFO:Returning director with id=7
+2021-07-19 17:29:36,703:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:29:36,714:WARNING:No films were found by director Some Director
+2021-07-19 17:29:36,744:INFO:Returning films of director with id: 5
+2021-07-19 17:29:36,758:WARNING:No films were found by this director id 99
+2021-07-19 17:29:36,794:INFO:Film with id = 7 not found
+2021-07-19 17:29:36,814:WARNING:Film with id = 105 not found
+2021-07-19 17:29:36,856:INFO:Returning all films of genre Drama
+2021-07-19 17:29:36,889:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:29:36,915:INFO:Film with name like The wolf found
+2021-07-19 17:29:36,941:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:29:37,141:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:30:24,104:INFO:Returning director with id=7
+2021-07-19 17:30:24,129:WARNING:No director in database with id= 104
+2021-07-19 17:30:24,204:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:30:24,225:WARNING:No films were found by director Some Director
+2021-07-19 17:30:24,246:INFO:Returning films of director with id: 5
+2021-07-19 17:30:24,260:WARNING:No films were found by this director id 99
+2021-07-19 17:30:24,301:INFO:Film with id = 7 not found
+2021-07-19 17:30:24,312:WARNING:Film with id = 105 not found
+2021-07-19 17:30:24,361:INFO:Returning all films of genre Drama
+2021-07-19 17:30:24,379:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:30:24,395:INFO:Film with name like The wolf found
+2021-07-19 17:30:24,398:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:30:24,531:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:37:45,970:INFO:Returning director with id=7
+2021-07-19 17:37:45,982:WARNING:No director in database with id= 104
+2021-07-19 17:37:46,019:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:37:46,029:WARNING:No films were found by director Some Director
+2021-07-19 17:37:46,046:INFO:Returning films of director with id: 5
+2021-07-19 17:37:46,056:WARNING:No films were found by this director id 99
+2021-07-19 17:37:46,070:INFO:Film with id = 7 not found
+2021-07-19 17:37:46,079:WARNING:Film with id = 105 not found
+2021-07-19 17:37:46,111:INFO:Returning all films of genre Drama
+2021-07-19 17:37:46,137:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:37:46,162:INFO:Film with name like The wolf found
+2021-07-19 17:37:46,185:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:37:46,366:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:38:02,689:INFO:Returning director with id=7
+2021-07-19 17:38:02,712:WARNING:No director in database with id= 104
+2021-07-19 17:38:02,751:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:38:02,755:WARNING:No films were found by director Some Director
+2021-07-19 17:38:02,802:INFO:Returning films of director with id: 5
+2021-07-19 17:38:02,830:WARNING:No films were found by this director id 99
+2021-07-19 17:38:02,865:INFO:Film with id = 7 not found
+2021-07-19 17:38:02,885:WARNING:Film with id = 105 not found
+2021-07-19 17:38:02,926:INFO:Returning all films of genre Drama
+2021-07-19 17:38:02,940:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:38:02,969:INFO:Film with name like The wolf found
+2021-07-19 17:38:02,993:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:38:03,154:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:39:02,210:INFO:Returning director with id=7
+2021-07-19 17:39:02,218:WARNING:No director in database with id= 104
+2021-07-19 17:39:02,580:INFO:Creating new director with name Isaac Walter
+2021-07-19 17:39:02,600:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:39:02,607:WARNING:No films were found by director Some Director
+2021-07-19 17:39:02,624:INFO:Returning films of director with id: 5
+2021-07-19 17:39:02,635:WARNING:No films were found by this director id 99
+2021-07-19 17:39:02,668:INFO:Film with id = 7 not found
+2021-07-19 17:39:02,673:WARNING:Film with id = 105 not found
+2021-07-19 17:39:02,701:INFO:Returning all films of genre Drama
+2021-07-19 17:39:02,717:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:39:02,745:INFO:Film with name like The wolf found
+2021-07-19 17:39:02,752:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:39:02,778:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:42:13,303:INFO:Setting director id None for film Kind Kitty
+2021-07-19 17:42:13,307:INFO:Setting director id None for film Angry Cat
+2021-07-19 17:42:13,307:INFO:Returning all films
+2021-07-19 17:42:13,319:INFO:127.0.0.1 - - [19/Jul/2021 17:42:13] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 14:42:14,609:WARNING:Username or password were left blank None None
+2021-07-19 14:42:14,693:INFO:172.23.0.1 - - [19/Jul/2021 14:42:14] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-07-19 17:42:25,178:INFO:127.0.0.1 - - [19/Jul/2021 17:42:25] "[37mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 200 -
+2021-07-19 17:42:27,291:INFO:127.0.0.1 - - [19/Jul/2021 17:42:27] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-19 17:43:10,438:WARNING:No director in database with id= 10
+2021-07-19 17:43:10,451:INFO:127.0.0.1 - - [19/Jul/2021 17:43:10] "[33mGET /api/directors/10 HTTP/1.1[0m" 404 -
+2021-07-19 17:43:15,206:WARNING:No director in database with id= 11
+2021-07-19 17:43:15,209:INFO:127.0.0.1 - - [19/Jul/2021 17:43:15] "[33mGET /api/directors/11 HTTP/1.1[0m" 404 -
+2021-07-19 17:43:19,535:WARNING:No director in database with id= 12
+2021-07-19 17:43:19,541:INFO:127.0.0.1 - - [19/Jul/2021 17:43:19] "[33mGET /api/directors/12 HTTP/1.1[0m" 404 -
+2021-07-19 17:43:23,381:WARNING:No director in database with id= 13
+2021-07-19 17:43:23,403:INFO:127.0.0.1 - - [19/Jul/2021 17:43:23] "[33mGET /api/directors/13 HTTP/1.1[0m" 404 -
+2021-07-19 17:43:27,398:INFO:Returning director with id=14
+2021-07-19 17:43:27,402:INFO:127.0.0.1 - - [19/Jul/2021 17:43:27] "[37mGET /api/directors/14 HTTP/1.1[0m" 200 -
+2021-07-19 17:43:35,378:INFO:Returning director with id=15
+2021-07-19 17:43:35,386:INFO:127.0.0.1 - - [19/Jul/2021 17:43:35] "[37mGET /api/directors/15 HTTP/1.1[0m" 200 -
+2021-07-19 17:43:41,568:INFO:Returning director with id=16
+2021-07-19 17:43:41,573:INFO:127.0.0.1 - - [19/Jul/2021 17:43:41] "[37mGET /api/directors/16 HTTP/1.1[0m" 200 -
+2021-07-19 17:43:46,426:INFO:Returning director with id=17
+2021-07-19 17:43:46,427:INFO:127.0.0.1 - - [19/Jul/2021 17:43:46] "[37mGET /api/directors/17 HTTP/1.1[0m" 200 -
+2021-07-19 17:43:51,982:INFO:Returning director with id=18
+2021-07-19 17:43:52,050:INFO:127.0.0.1 - - [19/Jul/2021 17:43:52] "[37mGET /api/directors/18 HTTP/1.1[0m" 200 -
+2021-07-19 17:43:58,876:INFO:Returning director with id=19
+2021-07-19 17:43:58,881:INFO:127.0.0.1 - - [19/Jul/2021 17:43:58] "[37mGET /api/directors/19 HTTP/1.1[0m" 200 -
+2021-07-19 17:44:07,156:INFO:127.0.0.1 - - [19/Jul/2021 17:44:07] "[31m[1mDELETE /api/directors/19 HTTP/1.1[0m" 401 -
+2021-07-19 17:44:34,025:INFO:Director Isaac Walter was deleted.
+2021-07-19 17:44:34,026:INFO:127.0.0.1 - - [19/Jul/2021 17:44:34] "[37mDELETE /api/directors/19 HTTP/1.1[0m" 204 -
+2021-07-19 17:44:59,487:INFO:Returning director with id=7
+2021-07-19 17:44:59,494:WARNING:No director in database with id= 104
+2021-07-19 17:44:59,531:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:44:59,543:WARNING:No films were found by director Some Director
+2021-07-19 17:44:59,571:INFO:Returning films of director with id: 5
+2021-07-19 17:44:59,588:WARNING:No films were found by this director id 99
+2021-07-19 17:44:59,607:INFO:Film with id = 7 not found
+2021-07-19 17:44:59,626:WARNING:Film with id = 105 not found
+2021-07-19 17:44:59,663:INFO:Returning all films of genre Drama
+2021-07-19 17:44:59,681:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:44:59,706:INFO:Film with name like The wolf found
+2021-07-19 17:44:59,710:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:44:59,766:INFO:Creating new director with name Isaac Walter
+2021-07-19 17:44:59,855:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:46:07,984:INFO:Director Isaac Walter was deleted.
+2021-07-19 17:46:07,985:INFO:127.0.0.1 - - [19/Jul/2021 17:46:07] "[37mDELETE /api/directors/20 HTTP/1.1[0m" 204 -
+2021-07-19 17:47:33,124:INFO:Returning director with id=7
+2021-07-19 17:47:33,162:WARNING:No director in database with id= 104
+2021-07-19 17:47:33,198:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:47:33,224:WARNING:No films were found by director Some Director
+2021-07-19 17:47:33,263:INFO:Returning films of director with id: 5
+2021-07-19 17:47:33,282:WARNING:No films were found by this director id 99
+2021-07-19 17:47:33,313:INFO:Film with id = 7 not found
+2021-07-19 17:47:33,333:WARNING:Film with id = 105 not found
+2021-07-19 17:47:33,374:INFO:Returning all films of genre Drama
+2021-07-19 17:47:33,396:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:47:33,415:INFO:Film with name like The wolf found
+2021-07-19 17:47:33,432:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:47:33,575:INFO:Creating new director with name Isaac Walter
+2021-07-19 17:47:33,613:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:49:38,615:INFO:Returning director with id=7
+2021-07-19 17:49:38,638:WARNING:No director in database with id= 104
+2021-07-19 17:49:38,672:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:49:38,676:WARNING:No films were found by director Some Director
+2021-07-19 17:49:38,699:INFO:Returning films of director with id: 5
+2021-07-19 17:49:38,713:WARNING:No films were found by this director id 99
+2021-07-19 17:49:38,738:INFO:Film with id = 7 not found
+2021-07-19 17:49:38,751:WARNING:Film with id = 105 not found
+2021-07-19 17:49:38,796:INFO:Returning all films of genre Drama
+2021-07-19 17:49:38,812:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:49:38,837:INFO:Film with name like The wolf found
+2021-07-19 17:49:38,851:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:49:38,986:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:51:02,239:INFO:Returning director with id=7
+2021-07-19 17:51:02,250:WARNING:No director in database with id= 104
+2021-07-19 17:51:02,273:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:51:02,281:WARNING:No films were found by director Some Director
+2021-07-19 17:51:02,297:INFO:Returning films of director with id: 5
+2021-07-19 17:51:02,303:WARNING:No films were found by this director id 99
+2021-07-19 17:51:02,330:INFO:Film with id = 7 not found
+2021-07-19 17:51:02,345:WARNING:Film with id = 105 not found
+2021-07-19 17:51:02,377:INFO:Returning all films of genre Drama
+2021-07-19 17:51:02,389:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:51:02,418:INFO:Film with name like The wolf found
+2021-07-19 17:51:02,428:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:51:02,576:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:51:38,137:INFO:Returning director with id=7
+2021-07-19 17:51:38,158:WARNING:No director in database with id= 104
+2021-07-19 17:51:38,214:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:51:38,238:WARNING:No films were found by director Some Director
+2021-07-19 17:51:38,268:INFO:Returning films of director with id: 5
+2021-07-19 17:51:38,285:WARNING:No films were found by this director id 99
+2021-07-19 17:51:38,315:INFO:Film with id = 7 not found
+2021-07-19 17:51:38,328:WARNING:Film with id = 105 not found
+2021-07-19 17:51:38,353:INFO:Returning all films of genre Drama
+2021-07-19 17:51:38,367:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:51:38,373:INFO:Film with name like The wolf found
+2021-07-19 17:51:38,391:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:51:38,531:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:52:07,831:WARNING:User Viktor29 don`t have admin privileges to delete directors
+2021-07-19 17:52:07,849:INFO:Returning director with id=7
+2021-07-19 17:52:07,869:WARNING:No director in database with id= 104
+2021-07-19 17:52:07,925:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:52:07,952:WARNING:No films were found by director Some Director
+2021-07-19 17:52:07,994:INFO:Returning films of director with id: 5
+2021-07-19 17:52:08,020:WARNING:No films were found by this director id 99
+2021-07-19 17:52:08,047:INFO:Film with id = 7 not found
+2021-07-19 17:52:08,065:WARNING:Film with id = 105 not found
+2021-07-19 17:52:08,098:INFO:Returning all films of genre Drama
+2021-07-19 17:52:08,122:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:52:08,138:INFO:Film with name like The wolf found
+2021-07-19 17:52:08,158:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:52:08,208:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:52:23,997:WARNING:User Viktor29 don`t have admin privileges to delete directors
+2021-07-19 17:52:24,016:INFO:Returning director with id=7
+2021-07-19 17:52:24,022:WARNING:No director in database with id= 104
+2021-07-19 17:52:24,039:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:52:24,065:WARNING:No films were found by director Some Director
+2021-07-19 17:52:24,083:INFO:Returning films of director with id: 5
+2021-07-19 17:52:24,102:WARNING:No films were found by this director id 99
+2021-07-19 17:52:24,125:INFO:Film with id = 7 not found
+2021-07-19 17:52:24,130:WARNING:Film with id = 105 not found
+2021-07-19 17:52:24,157:INFO:Returning all films of genre Drama
+2021-07-19 17:52:24,172:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:52:24,198:INFO:Film with name like The wolf found
+2021-07-19 17:52:24,204:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:52:24,384:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:52:56,269:WARNING:User Viktor29 don`t have admin privileges to delete directors
+2021-07-19 17:52:56,288:INFO:Returning director with id=7
+2021-07-19 17:52:56,291:WARNING:No director in database with id= 104
+2021-07-19 17:52:56,339:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:52:56,348:WARNING:No films were found by director Some Director
+2021-07-19 17:52:56,371:INFO:Returning films of director with id: 5
+2021-07-19 17:52:56,376:WARNING:No films were found by this director id 99
+2021-07-19 17:52:56,402:INFO:Film with id = 7 not found
+2021-07-19 17:52:56,418:WARNING:Film with id = 105 not found
+2021-07-19 17:52:56,442:INFO:Returning all films of genre Drama
+2021-07-19 17:52:56,463:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:52:56,474:INFO:Film with name like The wolf found
+2021-07-19 17:52:56,501:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:52:56,680:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:53:08,858:WARNING:User Viktor29 don`t have admin privileges to delete directors
+2021-07-19 17:53:08,875:INFO:Returning director with id=7
+2021-07-19 17:53:08,886:WARNING:No director in database with id= 104
+2021-07-19 17:53:08,903:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:53:08,917:WARNING:No films were found by director Some Director
+2021-07-19 17:53:08,932:INFO:Returning films of director with id: 5
+2021-07-19 17:53:08,951:WARNING:No films were found by this director id 99
+2021-07-19 17:53:08,960:INFO:Film with id = 7 not found
+2021-07-19 17:53:08,972:WARNING:Film with id = 105 not found
+2021-07-19 17:53:09,002:INFO:Returning all films of genre Drama
+2021-07-19 17:53:09,012:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:53:09,034:INFO:Film with name like The wolf found
+2021-07-19 17:53:09,041:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:53:09,184:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:53:33,695:INFO:Director Shane Carring was deleted.
+2021-07-19 17:53:33,722:WARNING:User Viktor29 don`t have admin privileges to delete directors
+2021-07-19 17:53:33,734:INFO:Returning director with id=7
+2021-07-19 17:53:33,740:WARNING:No director in database with id= 104
+2021-07-19 17:53:33,769:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:53:33,785:WARNING:No films were found by director Some Director
+2021-07-19 17:53:33,799:INFO:Returning films of director with id: 5
+2021-07-19 17:53:33,803:WARNING:No films were found by this director id 99
+2021-07-19 17:53:33,827:INFO:Film with id = 7 not found
+2021-07-19 17:53:33,838:WARNING:Film with id = 105 not found
+2021-07-19 17:53:33,866:INFO:Returning all films of genre Drama
+2021-07-19 17:53:33,876:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:53:33,895:INFO:Film with name like The wolf found
+2021-07-19 17:53:33,917:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:53:33,951:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:53:47,583:WARNING:User Viktor29 don`t have admin privileges to delete directors
+2021-07-19 17:53:47,610:INFO:Returning director with id=7
+2021-07-19 17:53:47,622:WARNING:No director in database with id= 104
+2021-07-19 17:53:47,657:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:53:47,673:WARNING:No films were found by director Some Director
+2021-07-19 17:53:47,714:INFO:Returning films of director with id: 5
+2021-07-19 17:53:47,732:WARNING:No films were found by this director id 99
+2021-07-19 17:53:47,767:INFO:Film with id = 7 not found
+2021-07-19 17:53:47,790:WARNING:Film with id = 105 not found
+2021-07-19 17:53:47,855:INFO:Returning all films of genre Drama
+2021-07-19 17:53:47,883:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:53:47,911:INFO:Film with name like The wolf found
+2021-07-19 17:53:47,934:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:53:48,108:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:54:02,453:INFO:Director Jane Fire was deleted.
+2021-07-19 17:54:02,454:INFO:127.0.0.1 - - [19/Jul/2021 17:54:02] "[37mDELETE /api/directors/17 HTTP/1.1[0m" 204 -
+2021-07-19 17:54:12,705:INFO:Returning director with id=16
+2021-07-19 17:54:12,706:INFO:127.0.0.1 - - [19/Jul/2021 17:54:12] "[37mGET /api/directors/16 HTTP/1.1[0m" 200 -
+2021-07-19 17:54:19,150:INFO:Returning director with id=15
+2021-07-19 17:54:19,152:INFO:127.0.0.1 - - [19/Jul/2021 17:54:19] "[37mGET /api/directors/15 HTTP/1.1[0m" 200 -
+2021-07-19 17:54:23,198:INFO:Returning director with id=14
+2021-07-19 17:54:23,199:INFO:127.0.0.1 - - [19/Jul/2021 17:54:23] "[37mGET /api/directors/14 HTTP/1.1[0m" 200 -
+2021-07-19 17:55:35,843:INFO:Director Jack Black was deleted.
+2021-07-19 17:55:35,867:WARNING:User Viktor29 don`t have admin privileges to delete directors
+2021-07-19 17:55:35,875:INFO:Returning director with id=7
+2021-07-19 17:55:35,890:WARNING:No director in database with id= 104
+2021-07-19 17:55:35,904:INFO:Creating new director with name Isaac Walter
+2021-07-19 17:55:35,938:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:55:35,951:WARNING:No films were found by director Some Director
+2021-07-19 17:55:35,963:INFO:Returning films of director with id: 5
+2021-07-19 17:55:35,983:WARNING:No films were found by this director id 99
+2021-07-19 17:55:35,991:INFO:Film with id = 7 not found
+2021-07-19 17:55:36,005:WARNING:Film with id = 105 not found
+2021-07-19 17:55:36,022:INFO:Returning all films of genre Drama
+2021-07-19 17:55:36,052:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:55:36,076:INFO:Film with name like The wolf found
+2021-07-19 17:55:36,093:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:55:36,121:INFO:Creating new director with name Isaac Walter
+2021-07-19 17:55:36,128:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 17:55:36,145:WARNING:Film with name Mysterious Cat cannot be added because such film already exists
+2021-07-19 17:55:36,202:INFO:Film was updated by user Oleg97
+2021-07-19 17:55:36,231:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:55:36,252:INFO:Film was updated by user Semen21
+2021-07-19 17:56:52,056:WARNING:Username or password were left blank None None
+2021-07-19 17:56:52,065:INFO:127.0.0.1 - - [19/Jul/2021 17:56:52] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-07-19 17:56:52,322:INFO:127.0.0.1 - - [19/Jul/2021 17:56:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-07-19 17:56:57,791:INFO:127.0.0.1 - - [19/Jul/2021 17:56:57] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-19 17:56:57,961:INFO:127.0.0.1 - - [19/Jul/2021 17:56:57] "[37mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 200 -
+2021-07-19 17:56:57,973:INFO:127.0.0.1 - - [19/Jul/2021 17:56:57] "[37mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 200 -
+2021-07-19 17:56:58,014:INFO:127.0.0.1 - - [19/Jul/2021 17:56:58] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021-07-19 17:56:58,042:INFO:127.0.0.1 - - [19/Jul/2021 17:56:58] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021-07-19 17:56:58,429:INFO:127.0.0.1 - - [19/Jul/2021 17:56:58] "[37mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 200 -
+2021-07-19 17:56:58,492:INFO:127.0.0.1 - - [19/Jul/2021 17:56:58] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-19 17:57:34,479:INFO:Film with id = 6 not found
+2021-07-19 17:57:34,480:INFO:127.0.0.1 - - [19/Jul/2021 17:57:34] "[37mGET /api/films/6 HTTP/1.1[0m" 200 -
+2021-07-19 17:57:38,412:INFO:Film with name like Mys found
+2021-07-19 17:57:38,415:INFO:127.0.0.1 - - [19/Jul/2021 17:57:38] "[37mGET /api/films/Mys HTTP/1.1[0m" 200 -
+2021-07-19 17:57:58,332:INFO:127.0.0.1 - - [19/Jul/2021 17:57:58] "[31m[1mDELETE /api/films/43 HTTP/1.1[0m" 401 -
+2021-07-19 17:59:51,841:WARNING:User Viktor29 don`t have admin privileges to delete directors
+2021-07-19 17:59:51,871:INFO:Returning director with id=7
+2021-07-19 17:59:51,888:WARNING:No director in database with id= 104
+2021-07-19 17:59:51,934:INFO:Creating new director with name Isaac Walter
+2021-07-19 17:59:52,027:INFO:Returning films of director Guy Ritchie
+2021-07-19 17:59:52,057:WARNING:No films were found by director Some Director
+2021-07-19 17:59:52,116:INFO:Returning films of director with id: 5
+2021-07-19 17:59:52,153:WARNING:No films were found by this director id 99
+2021-07-19 17:59:52,202:INFO:Film with id = 7 not found
+2021-07-19 17:59:52,224:WARNING:Film with id = 105 not found
+2021-07-19 17:59:52,286:INFO:Returning all films of genre Drama
+2021-07-19 17:59:52,319:WARNING:No films were found by genre Science_Fiction
+2021-07-19 17:59:52,355:INFO:Film with name like The wolf found
+2021-07-19 17:59:52,384:WARNING:Film with name like The lonely soul not found
+2021-07-19 17:59:52,416:INFO:Creating new director with name Isaac Walter
+2021-07-19 17:59:52,597:INFO:Film Mysterious Cat was deleted by Semen21 successfully
+2021-07-19 17:59:52,684:INFO:Film was updated by user Oleg97
+2021-07-19 17:59:52,786:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 17:59:52,863:INFO:Film was updated by user Semen21
+2021-07-19 18:00:30,907:INFO:127.0.0.1 - - [19/Jul/2021 18:00:30] "[33mGET /api/films/ HTTP/1.1[0m" 404 -
+2021-07-19 18:00:34,425:INFO:Setting director id None for film Kind Kitty
+2021-07-19 18:00:34,425:INFO:Setting director id None for film Angry Cat
+2021-07-19 18:00:34,425:INFO:Setting director id None for film Strange Village
+2021-07-19 18:00:34,425:INFO:Returning all films
+2021-07-19 18:00:34,427:INFO:127.0.0.1 - - [19/Jul/2021 18:00:34] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-19 18:00:47,028:INFO:Setting director id None for film Kind Kitty
+2021-07-19 18:00:47,029:INFO:Setting director id None for film Angry Cat
+2021-07-19 18:00:47,029:INFO:Setting director id None for film Strange Village
+2021-07-19 18:00:47,029:INFO:Returning all films
+2021-07-19 18:00:47,034:INFO:127.0.0.1 - - [19/Jul/2021 18:00:47] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 18:01:18,142:INFO:Director Li Chung was deleted.
+2021-07-19 18:01:18,176:WARNING:User Viktor29 don`t have admin privileges to delete directors
+2021-07-19 18:01:18,187:INFO:Returning director with id=7
+2021-07-19 18:01:18,197:WARNING:No director in database with id= 104
+2021-07-19 18:01:18,219:INFO:Creating new director with name Isaac Walter
+2021-07-19 18:01:18,248:INFO:Returning films of director Guy Ritchie
+2021-07-19 18:01:18,256:WARNING:No films were found by director Some Director
+2021-07-19 18:01:18,280:INFO:Returning films of director with id: 5
+2021-07-19 18:01:18,284:WARNING:No films were found by this director id 99
+2021-07-19 18:01:18,312:INFO:Film with id = 7 not found
+2021-07-19 18:01:18,316:WARNING:Film with id = 105 not found
+2021-07-19 18:01:18,348:INFO:Returning all films of genre Drama
+2021-07-19 18:01:18,353:WARNING:No films were found by genre Science_Fiction
+2021-07-19 18:01:18,381:INFO:Film with name like The wolf found
+2021-07-19 18:01:18,385:WARNING:Film with name like The lonely soul not found
+2021-07-19 18:01:18,400:INFO:Creating new director with name Isaac Walter
+2021-07-19 18:01:18,440:INFO:Film Strange Village was deleted by Semen21 successfully
+2021-07-19 18:01:18,459:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 18:01:18,539:INFO:Film Mysterious Cat was created.
+2021-07-19 18:01:18,564:INFO:Film was updated by user Oleg97
+2021-07-19 18:01:18,592:WARNING:Film with rating 12.9 cannot be added because of incorrect data
+2021-07-19 18:01:18,631:INFO:Film was updated by user Semen21
+2021-07-19 18:01:32,371:INFO:Setting director id None for film Kind Kitty
+2021-07-19 18:01:32,371:INFO:Setting director id None for film Angry Cat
+2021-07-19 18:01:32,371:INFO:Setting director id None for film Panda Chang
+2021-07-19 18:01:32,371:INFO:Returning all films
+2021-07-19 18:01:32,385:INFO:127.0.0.1 - - [19/Jul/2021 18:01:32] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 18:01:41,303:INFO:127.0.0.1 - - [19/Jul/2021 18:01:41] "[31m[1mDELETE /api/films/44 HTTP/1.1[0m" 401 -
+2021-07-19 18:01:49,895:INFO:Film Mysterious Cat was deleted by Semen21 successfully
+2021-07-19 18:01:49,896:INFO:127.0.0.1 - - [19/Jul/2021 18:01:49] "[37mDELETE /api/films/44 HTTP/1.1[0m" 204 -

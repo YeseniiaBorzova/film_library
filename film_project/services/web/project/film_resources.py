@@ -155,15 +155,15 @@ class FilmResource(Resource):
         director_name = request.json.get("director_name")
         director_surname = request.json.get("director_surname")
 
-        if rating > 10 or rating < 1:
-            logging.warning(f"Film with rating {rating} cannot be added because of incorrect data")
-            abort(400, description="You entered bad data, maybe rating > 10 or 1<")
-
         if film.user_id == user.id or user.is_admin:
             if rating:
                 models.db.session.query(models.Film).filter(models.Film.id == film.id). \
                     update({models.Film.rating: rating})
                 models.db.session.commit()
+
+                if rating > 10 or rating < 1:
+                    logging.warning(f"Film with rating {rating} cannot be added because of incorrect data")
+                    abort(400, description="You entered bad data, maybe rating > 10 or 1<")
 
             if poster_link:
                 models.db.session.query(models.Film).filter(models.Film.id == film.id). \
@@ -189,6 +189,8 @@ class FilmResource(Resource):
                     models.db.session.query(models.Film).filter(models.Film.id == film.id). \
                         update({models.Film.director_id: director_id})
                     models.db.session.commit()
+        else:
+            abort(403, description="You don`t have enough permissions to delete this film.")
 
         logging.info(f"Film was updated by user {user.username}")
 
@@ -243,6 +245,7 @@ class FilmDirectorById(Resource):
 class FilmDirectorByFullName(Resource):
     """Resource responsible for getting director by full name"""
     def get(self):
+        """GET request return all director films by its name and surname"""
         director_name = request.json["director_name"]
         director_surname = request.json["director_surname"]
         film_directors = models.db.session.query(models.Film, models.Director). \
