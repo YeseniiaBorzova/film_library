@@ -1250,3 +1250,20 @@ TypeError: '>' not supported between instances of 'NoneType' and 'int'
 2021-07-19 18:01:41,303:INFO:127.0.0.1 - - [19/Jul/2021 18:01:41] "[31m[1mDELETE /api/films/44 HTTP/1.1[0m" 401 -
 2021-07-19 18:01:49,895:INFO:Film Mysterious Cat was deleted by Semen21 successfully
 2021-07-19 18:01:49,896:INFO:127.0.0.1 - - [19/Jul/2021 18:01:49] "[37mDELETE /api/films/44 HTTP/1.1[0m" 204 -
+2021-07-20 15:41:00,477:WARNING: * Debugger is active!
+2021-07-20 15:41:00,480:INFO: * Debugger PIN: 328-018-753
+2021-07-20 15:42:23,705:INFO: * Detected change in '/usr/src/app/manage.py', reloading
+2021-07-20 15:42:28,357:WARNING: * Debugger is active!
+2021-07-20 15:42:28,358:INFO: * Debugger PIN: 328-018-753
+2021-07-20 15:55:45,960:INFO: * Detected change in '/usr/src/app/project/models.py', reloading
+2021-07-20 15:55:50,653:WARNING: * Debugger is active!
+2021-07-20 15:55:50,654:INFO: * Debugger PIN: 328-018-753
+2021-07-20 18:57:58,099:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-20 18:57:58,102:INFO: * Restarting with stat
+2021-07-20 18:58:00,672:WARNING: * Debugger is active!
+2021-07-20 18:58:00,673:INFO: * Debugger PIN: 310-025-136
+2021-07-20 18:58:01,262:INFO:Setting director id None for film Mystery Cat
+2021-07-20 18:58:01,263:INFO:Setting director id None for film Super hero Cat
+2021-07-20 18:58:01,263:INFO:Setting director id None for film Shooting Star
+2021-07-20 18:58:01,263:INFO:Returning all films
+2021-07-20 18:58:01,265:INFO:127.0.0.1 - - [20/Jul/2021 18:58:01] "[37mGET /api/films?start=11&limit=20 HTTP/1.1[0m" 200 -

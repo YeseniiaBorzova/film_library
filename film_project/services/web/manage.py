@@ -9,15 +9,17 @@ from project.models import User, Genre, Film, Director, FilmToGenre, db
 cli = FlaskGroup(app)
 
 
-# @cli.command("create_db")
-# def create_db():
-#     db.drop_all()
-#     db.create_all()
-#     db.session.commit()
+@cli.command("create_db")
+def create_db():
+    """Command to create a database"""
+    db.drop_all()
+    db.create_all()
+    db.session.commit()
 
 
 @cli.command("seed_db")
 def seed_db():
+    """Command to seed database with data"""
     usr1 = User("Oleg97", "pbf312*", True)  # admin
     usr2 = User("Alina555", "gw#11drp", False)
     usr3 = User("Max8000", "bweuhb$09", False)
