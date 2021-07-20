@@ -16,6 +16,7 @@ logging.basicConfig(level=logging.INFO, filename="app_routes_logs.txt", filemode
 
 @main_blueprint.route("/home")
 def index():
+    """Home page available for all users with all films"""
     rows_per_page = 10
     page = request.args.get('page', 1, type=int)
     films = models.Film.query.paginate(page=page, per_page=rows_per_page)
@@ -25,6 +26,7 @@ def index():
 
 @main_blueprint.route("/login", methods=['GET', 'POST'])
 def login():
+    """Login function responsible for user authorization and authentication"""
     username = request.form.get('username')
     password = request.form.get('password')
 
@@ -46,6 +48,7 @@ def login():
 @main_blueprint.route('/main-page', methods=['GET', 'POST'])
 @login_required
 def main_films_page():
+    """Main page with films only authorized users"""
     user = current_user
 
     all_films = {"name": set(), "genres": []}
@@ -60,6 +63,7 @@ def main_films_page():
 
 @main_blueprint.route("/register", methods=['GET', 'POST'])
 def register():
+    """Function creates new user in the system responsible for registration"""
     username = request.form.get('username')
     password = request.form.get('password')
     password2 = request.form.get('password2')
@@ -86,6 +90,7 @@ def register():
 @login_required
 @main_blueprint.route("/logout", methods=['GET', 'POST'])
 def logout():
+    """Logging out user from app"""
     logging.info(f"Logging out {current_user.username}")
     logout_user()
     return redirect('/home')

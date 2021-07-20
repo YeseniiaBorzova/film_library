@@ -11,6 +11,7 @@ login_manager = LoginManager()
 
 
 class User(db.Model, UserMixin):
+    """User model"""
     __tablename__ = "users"
 
     id = db.Column(db.Integer, primary_key=True)
@@ -20,15 +21,18 @@ class User(db.Model, UserMixin):
     films = db.relationship('Film', backref='user', lazy=True)
 
     def __init__(self, username, password, is_admin):
+        """Constructor"""
         self.username = username
         self.password = password
         self.is_admin = is_admin
 
     def __repr__(self):
+        """Overriding string representation of an object"""
         return f"{self.username} {self.password} admin: {str(self.is_admin)}"
 
     @login_manager.user_loader
     def load_user(user_id):
+        """Overriding method for flask login"""
         return User.query.get(user_id)
 
     @property
@@ -43,6 +47,7 @@ class User(db.Model, UserMixin):
 
 
 class Director(db.Model):
+    """Director model"""
     __tablename__ = "directors"
 
     id = db.Column(db.Integer, primary_key=True)
@@ -51,6 +56,7 @@ class Director(db.Model):
     films = db.relationship('Film', backref='director', lazy=True)
 
     def __init__(self, name, surname):
+        """Constructor"""
         self.name = name
         self.surname = surname
 
@@ -65,6 +71,7 @@ class Director(db.Model):
 
 
 class Genre(db.Model):
+    """Genre model"""
     __tablename__ = "genres"
 
     id = db.Column(db.Integer, primary_key=True)
@@ -72,6 +79,7 @@ class Genre(db.Model):
     film_genres = db.relationship('FilmToGenre', backref='genre', lazy=True)
 
     def __init__(self, genre_name):
+        """Constructor"""
         self.genre_name = genre_name
 
     @property
@@ -84,6 +92,7 @@ class Genre(db.Model):
 
 
 class Film(db.Model):
+    """Film model"""
     __tablename__ = "films"
 
     genres = []
@@ -99,6 +108,7 @@ class Film(db.Model):
     film_genres = db.relationship('FilmToGenre', backref='film', lazy=True)
 
     def __init__(self, user_id, name, release_date, rating, poster_link, **kwargs):
+        """Constructor"""
         self.user_id = user_id
         self.name = name
         self.release_date = release_date
@@ -123,13 +133,16 @@ class Film(db.Model):
         }
 
     def add_genre(self, genre):
+        """Adds genre in genres list"""
         self.genres.append(genre)
 
     def check_genre(self, genre):
+        """Check if genre already present in genre list"""
         return genre in self.genres
 
 
 class FilmToGenre(db.Model):
+    """Model film to genre"""
     __tablename__ = "film_to_genre"
 
     id = db.Column(db.Integer, primary_key=True)
@@ -137,6 +150,7 @@ class FilmToGenre(db.Model):
     film_id = db.Column(db.Integer, db.ForeignKey('films.id'), nullable=True)
 
     def __init__(self, genre_id, film_id):
+        """Constructor"""
         self.genre_id = genre_id
         self.film_id = film_id
 
