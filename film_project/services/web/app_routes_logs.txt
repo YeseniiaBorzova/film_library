@@ -1579,3 +1579,7 @@ TypeError: '>' not supported between instances of 'NoneType' and 'int'
 2021-07-20 16:30:17,373:INFO: * Restarting with stat
 2021-07-20 16:30:21,016:WARNING: * Debugger is active!
 2021-07-20 16:30:21,018:INFO: * Debugger PIN: 328-018-753
+2021-07-20 17:39:26,954:INFO: * Detected change in '/usr/src/app/project/config.py', reloading
+2021-07-20 17:39:27,340:INFO: * Restarting with stat
+2021-07-20 17:39:30,972:WARNING: * Debugger is active!
+2021-07-20 17:39:31,050:INFO: * Debugger PIN: 328-018-753
