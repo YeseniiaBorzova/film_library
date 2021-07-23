@@ -1,0 +1,51 @@
+
+2021-07-17 12:16:36,333:INFO:127.0.0.1 - - [17/Jul/2021 12:16:36] "[33mGET /api/films/director-film/10.3 HTTP/1.1[0m" 404 -
+2021-07-17 09:21:08,462:INFO: * Detected change in '/usr/src/app/project/home_page_routes.py', reloading
+2021-07-17 12:21:08,507:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/project/home_page_routes.py', reloading
+2021-07-17 09:21:13,005:WARNING: * Debugger is active!
+2021-07-17 09:21:13,006:INFO: * Debugger PIN: 120-141-584
+2021-07-17 12:21:13,943:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-17 12:21:13,944:INFO: * Restarting with stat
+2021-07-17 12:21:14,890:WARNING: * Debugger is active!
+2021-07-17 12:21:14,891:INFO: * Debugger PIN: 310-025-136
+2021-07-17 12:21:32,631:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-17 12:21:32,638:WARNING:Film with name Wonder Cat cannot be added because such film already exists
+2021-07-17 12:21:32,640:INFO:127.0.0.1 - - [17/Jul/2021 12:21:32] "[31m[1mPOST /api/film/ HTTP/1.1[0m" 409 -
+2021-07-17 12:21:41,097:INFO:Setting director id None for film Kind Kitty
+2021-07-17 12:21:41,097:INFO:Setting director id None for film Angry Cat
+2021-07-17 12:21:41,097:INFO:Returning all films
+2021-07-17 12:21:41,102:INFO:127.0.0.1 - - [17/Jul/2021 12:21:41] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-17 12:21:48,420:INFO:Setting director id None for film Kind Kitty
+2021-07-17 12:21:48,420:INFO:Setting director id None for film Angry Cat
+2021-07-17 12:21:48,420:INFO:Returning all films
+2021-07-17 12:21:48,423:INFO:127.0.0.1 - - [17/Jul/2021 12:21:48] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-17 12:22:03,026:INFO:Setting director id None for film Kind Kitty
+2021-07-17 12:22:03,027:INFO:Setting director id None for film Angry Cat
+2021-07-17 12:22:03,027:INFO:Returning all films
+2021-07-17 12:22:03,036:INFO:127.0.0.1 - - [17/Jul/2021 12:22:03] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-17 12:22:25,766:INFO:Film Wonder Cat was deleted by Semen21 successfully
+2021-07-17 12:22:25,767:INFO:127.0.0.1 - - [17/Jul/2021 12:22:25] "[37mDELETE /api/films/36 HTTP/1.1[0m" 204 -
+2021-07-17 12:22:26,933:INFO:127.0.0.1 - - [17/Jul/2021 12:22:26] "[33mDELETE /api/films/36 HTTP/1.1[0m" 404 -
+2021-07-17 12:23:10,180:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-17 12:23:10,313:INFO:127.0.0.1 - - [17/Jul/2021 12:23:10] "[37mPOST /api/film/ HTTP/1.1[0m" 200 -
+2021-07-17 09:24:11,965:INFO: * Detected change in '/usr/src/app/project/film_resources.py', reloading
+2021-07-17 12:24:12,025:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py', reloading
+2021-07-17 12:24:12,990:INFO: * Restarting with stat
+2021-07-17 09:24:16,835:WARNING: * Debugger is active!
+2021-07-17 09:24:16,837:INFO: * Debugger PIN: 120-141-584
+2021-07-17 12:24:20,239:WARNING: * Debugger is active!
+2021-07-17 12:24:20,242:INFO: * Debugger PIN: 310-025-136
+2021-07-17 12:24:20,856:INFO:Film Wonder Cat was deleted by Semen21 successfully
+2021-07-17 12:24:20,857:INFO:127.0.0.1 - - [17/Jul/2021 12:24:20] "[37mDELETE /api/films/37 HTTP/1.1[0m" 204 -
+2021-07-17 09:24:56,945:INFO: * Detected change in '/usr/src/app/project/film_resources.py', reloading
+2021-07-17 12:24:57,249:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/project/film_resources.py', reloading
+2021-07-17 12:24:58,494:INFO: * Restarting with stat
+2021-07-17 12:25:01,564:WARNING: * Debugger is active!
+2021-07-17 12:25:01,566:INFO: * Debugger PIN: 310-025-136
+2021-07-17 09:25:01,685:WARNING: * Debugger is active!
+2021-07-17 09:25:01,686:INFO: * Debugger PIN: 120-141-584
+2021-07-17 12:25:40,494:INFO:Creating new director with name Jane Fire
+2021-07-17 12:25:40,519:INFO:127.0.0.1 - - [17/Jul/2021 12:25:40] "[37mPOST /api/director/ HTTP/1.1[0m" 200 -
+2021-07-17 09:34:18,632:INFO: * Detected change in '/usr/src/app/project/home_page_routes.py', reloading
+2021-07-17 12:34:18,796:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/project/home_page_routes.py', reloading
+2021-07-17 12:34:19,799:INFO: * Restarting with stat

@@ -1,0 +1,31 @@
+
+POST request to add new film (only from registered user):
+
+curl -u Semen21:yyslf888@ -X POST http://localhost:5005/api/film/ -H "Content-Type: application/json" --data '{"name":"Wonder Cat", "release_date":"2018-11-17", "rating":8.4,
+"poster_link":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrainstudy.info%2Fimages%2F%25D0%25BA%25D0%25BE%25D1%2582%25D0%25B8%25D0%25BA&psig=AOvVaw2pos8kzX1I_y4fKvTk2iDQ&ust=1626421442774000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNCKkZXK5PECFQAAAAAdAAAAABAU",
+"description":"Glorious wonder-cat saves the world", "director_name":"Christopher", "director_surname":"Nolan", "genres":["Comedy", "Family"]}'
+
+PUT request to change film information only for admin or user who added it
+
+curl -u Semen21:yyslf888@ -X PUT http://localhost:5005/api/films/17 -H "Content-Type: application/json" --data '{"name":"Panda Cho",
+"poster_link":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%25A4%25D0%25B0%25D0%25B9%25D0%25BB%3ARedhead_Cat_(%25D0%25A0%25D1%258B%25D0%25B6%25D0%25B8%25D0%25B9_%25D0%259A%25D0%25BE%25D1%2582).jpg&psig=AOvVaw0P0QVq9QixQTKdeQkSkOEo&ust=1626440115309000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDGlKSx5fECFQAAAAAdAAAAABAP",
+"director_name":"Li", "director_surname":"Chung"}'
+
+curl -u Semen21:yyslf888@ -X PUT http://localhost:5005/api/films/17 -H "Content-Type: application/json" --data '{"rating": 6.8}'
+
+curl -u Oleg97:pbf312* -X PUT http://localhost:5005/api/films/17 -H "Content-Type: application/json" --data '{"name": "Panda Po 2"}'
+
+POST request to add new director:
+curl -u Semen21:yyslf888@ -X POST  -X POST http://localhost:5000/api/director/ -H "Content-Type: application/json" --data '{"name":"Joseph", "surname":"Watson"}'
+
+GET request to find films of director by name and surname
+curl -i -X GET http://localhost:5005/api/films/director-film/ -H "Content-Type: application/json" --data '{"director_name":"Guy","director_surname":"Ritchie"}'
+
+GET request to find films in some year range(from 2000 to 2005)
+curl -i -X GET http://localhost:5005/api/films/years-range -H "Content-Type: application/json" --data '{"year_from":2018, "year_to":2021}'
+
+DELETE request to delete director only for admin:
+curl -u Mariia209:tot_123 -X DELETE http://127.0.0.1:5000/api/directors/13 -H "Content-Type: application/json"
+
+DELETE request to delete film only for admin or user who added it:
+curl -u Mariia209:tot_123 -X DELETE http://127.0.0.1:5005/api/films/18 -H "Content-Type: application/json"

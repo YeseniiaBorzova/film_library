@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+</head>
+<body>
+ <a href="{{ url_for('main_blueprint.logout') }}">Logout</a>
+ <p>Hello, {{ cur_user.username }}</p>
+<h1>Film library main page</h1>
+    {% for film in all_films %}
+        {{ film[0].name }}, {{ film[2].genre_name }}<br>
+    {% endfor %}
+</body>
+</html>
