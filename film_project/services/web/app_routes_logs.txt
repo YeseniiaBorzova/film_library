@@ -1267,3 +1267,319 @@ TypeError: '>' not supported between instances of 'NoneType' and 'int'
 2021-07-20 18:58:01,263:INFO:Setting director id None for film Shooting Star
 2021-07-20 18:58:01,263:INFO:Returning all films
 2021-07-20 18:58:01,265:INFO:127.0.0.1 - - [20/Jul/2021 18:58:01] "[37mGET /api/films?start=11&limit=20 HTTP/1.1[0m" 200 -
+2021-07-19 16:39:56,317:WARNING: * Debugger is active!
+2021-07-19 16:39:56,319:INFO: * Debugger PIN: 985-703-2932021-07-19 16:47:14,962:WARNING: * Debugger is active!
+2021-07-19 16:47:14,962:INFO: * Debugger PIN: 985-703-293
+2021-07-19 16:50:09,722:WARNING: * Debugger is active!
+2021-07-19 16:50:09,723:INFO: * Debugger PIN: 985-703-293
+2021-07-19 16:53:10,322:WARNING: * Debugger is active!
+2021-07-19 16:53:10,323:INFO: * Debugger PIN: 985-703-293
+2021-07-19 16:56:27,798:INFO:172.26.0.1 - - [19/Jul/2021 16:56:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-19 16:56:28,036:INFO:172.26.0.1 - - [19/Jul/2021 16:56:28] "[37mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+2021-07-19 16:56:28,042:INFO:172.26.0.1 - - [19/Jul/2021 16:56:28] "[37mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+2021-07-19 16:56:28,746:INFO:172.26.0.1 - - [19/Jul/2021 16:56:28] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-19 16:56:43,427:INFO:Returning films of director with id: 5
+2021-07-19 16:56:43,433:INFO:172.26.0.1 - - [19/Jul/2021 16:56:43] "[37mGET /api/films/director-film/5 HTTP/1.1[0m" 200 -
+2021-07-19 16:56:51,167:INFO:Returning films of director with id: 6
+2021-07-19 16:56:51,171:INFO:172.26.0.1 - - [19/Jul/2021 16:56:51] "[37mGET /api/films/director-film/6 HTTP/1.1[0m" 200 -
+2021-07-19 16:57:02,872:INFO:Returning all films of genre Drama
+2021-07-19 16:57:02,876:INFO:172.26.0.1 - - [19/Jul/2021 16:57:02] "[37mGET /api/films/genres/Drama HTTP/1.1[0m" 200 -
+2021-07-19 16:57:09,799:INFO:Sorting films by date descending
+2021-07-19 16:57:09,811:INFO:172.26.0.1 - - [19/Jul/2021 16:57:09] "[37mGET /api/films/order-by-date-desc HTTP/1.1[0m" 200 -
+2021-07-19 16:58:16,034:INFO: * Detected change in '/usr/src/app/manage.py', reloading
+2021-07-19 16:58:19,732:WARNING: * Debugger is active!
+2021-07-19 16:58:19,733:INFO: * Debugger PIN: 985-703-293
+2021-07-19 16:58:20,486:INFO:Post film request from user with credentials Semen21:yyslf888@
+2021-07-19 16:58:20,561:INFO:Film Wonder Cat was created.
+2021-07-19 16:58:20,563:INFO:172.26.0.1 - - [19/Jul/2021 16:58:20] "[37mPOST /api/film/ HTTP/1.1[0m" 200 -
+2021-07-19 16:59:42,401:INFO:Creating new director with name Cristopher Nolan
+2021-07-19 16:59:42,406:INFO:172.26.0.1 - - [19/Jul/2021 16:59:42] "[37mPOST /api/director/ HTTP/1.1[0m" 200 -
+2021-07-19 16:59:59,081:INFO:Returning director with id=8
+2021-07-19 16:59:59,085:INFO:172.26.0.1 - - [19/Jul/2021 16:59:59] "[37mGET /api/directors/8 HTTP/1.1[0m" 200 -
+2021-07-19 17:00:17,783:INFO:172.26.0.1 - - [19/Jul/2021 17:00:17] "[31m[1mDELETE /api/directors/9 HTTP/1.1[0m" 401 -
+2021-07-19 17:00:34,426:INFO:172.26.0.1 - - [19/Jul/2021 17:00:34] "[31m[1mDELETE /api/directors/9 HTTP/1.1[0m" 401 -
+2021-07-19 17:00:48,917:INFO:172.26.0.1 - - [19/Jul/2021 17:00:48] "[31m[1mDELETE /api/directors/9 HTTP/1.1[0m" 401 -
+2021-07-19 17:01:21,618:INFO:Director Cristopher Nolan was deleted.
+2021-07-19 17:01:21,619:INFO:172.26.0.1 - - [19/Jul/2021 17:01:21] "[37mDELETE /api/directors/9 HTTP/1.1[0m" 204 -
+2021-07-19 17:09:37,957:INFO:Post film request from user with credentials Viktor29:test444**
+2021-07-19 17:09:38,106:INFO:Film Mysterious Cat was created.
+2021-07-19 17:09:38,107:INFO:172.26.0.1 - - [19/Jul/2021 17:09:38] "[37mPOST /api/film/ HTTP/1.1[0m" 200 -
+2021-07-19 18:59:32,186:INFO:Post film request from user with credentials Dasha01:erj@w2
+2021-07-19 18:59:32,224:INFO:Film Super hero The Cat was created.
+2021-07-19 18:59:32,225:INFO:172.26.0.1 - - [19/Jul/2021 18:59:32] "[37mPOST /api/film/ HTTP/1.1[0m" 200 -
+2021-07-19 19:17:16,380:INFO:Post film request from user with credentials Dasha01:erj@w2
+2021-07-19 19:17:16,555:INFO:Film Stolen cat was created.
+2021-07-19 19:17:16,556:INFO:172.26.0.1 - - [19/Jul/2021 19:17:16] "[37mPOST /api/film/ HTTP/1.1[0m" 200 -
+2021-07-19 19:17:37,914:INFO:Film with name like St found
+2021-07-19 19:17:37,916:INFO:172.26.0.1 - - [19/Jul/2021 19:17:37] "[37mGET /api/films/St HTTP/1.1[0m" 200 -
+2021-07-19 19:17:52,961:INFO:Setting director id None for film Mysterious Cat
+2021-07-19 19:17:52,965:INFO:Setting director id None for film Super hero The Cat
+2021-07-19 19:17:52,965:INFO:Setting director id None for film Stolen cat
+2021-07-19 19:17:52,966:INFO:Returning all films
+2021-07-19 19:17:52,968:INFO:172.26.0.1 - - [19/Jul/2021 19:17:52] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-19 19:18:05,596:INFO:Setting director id None for film Mysterious Cat
+2021-07-19 19:18:05,597:INFO:Setting director id None for film Super hero The Cat
+2021-07-19 19:18:05,597:INFO:Setting director id None for film Stolen cat
+2021-07-19 19:18:05,597:INFO:Returning all films
+2021-07-19 19:18:05,601:INFO:172.26.0.1 - - [19/Jul/2021 19:18:05] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 19:21:05,235:INFO:Post film request from user with credentials Dasha01:erj@w2
+2021-07-19 19:21:05,371:INFO:Film Panda Po was created.
+2021-07-19 19:21:05,372:INFO:172.26.0.1 - - [19/Jul/2021 19:21:05] "[37mPOST /api/film/ HTTP/1.1[0m" 200 -
+2021-07-19 19:22:30,411:INFO:Post film request from user with credentials Dasha01:erj@w2
+2021-07-19 19:22:30,443:INFO:Film Panda Po 2 was created.
+2021-07-19 19:22:30,444:INFO:172.26.0.1 - - [19/Jul/2021 19:22:30] "[37mPOST /api/film/ HTTP/1.1[0m" 200 -
+2021-07-19 19:24:38,947:INFO:Post film request from user with credentials Dasha01:erj@w2
+2021-07-19 19:24:39,004:INFO:Film Panda Po 3 was created.
+2021-07-19 19:24:39,005:INFO:172.26.0.1 - - [19/Jul/2021 19:24:39] "[37mPOST /api/film/ HTTP/1.1[0m" 200 -
+2021-07-19 19:27:04,693:INFO:Post film request from user with credentials Dasha01:erj@w2
+2021-07-19 19:27:04,829:INFO:Film Very big cat was created.
+2021-07-19 19:27:04,830:INFO:172.26.0.1 - - [19/Jul/2021 19:27:04] "[37mPOST /api/film/ HTTP/1.1[0m" 200 -
+2021-07-19 19:27:20,133:INFO:Setting director id None for film Mysterious Cat
+2021-07-19 19:27:20,133:INFO:Setting director id None for film Super hero The Cat
+2021-07-19 19:27:20,133:INFO:Setting director id None for film Stolen cat
+2021-07-19 19:27:20,133:INFO:Returning all films
+2021-07-19 19:27:20,138:INFO:172.26.0.1 - - [19/Jul/2021 19:27:20] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 19:27:40,968:INFO:Setting director id None for film Mysterious Cat
+2021-07-19 19:27:40,968:INFO:Setting director id None for film Super hero The Cat
+2021-07-19 19:27:40,968:INFO:Setting director id None for film Stolen cat
+2021-07-19 19:27:40,968:INFO:Returning all films
+2021-07-19 19:27:40,972:INFO:172.26.0.1 - - [19/Jul/2021 19:27:40] "[37mGET /api/films?start=21&limit=10 HTTP/1.1[0m" 200 -
+2021-07-19 19:28:34,262:INFO: * Detected change in '/usr/src/app/project/config.py', reloading
+2021-07-19 19:28:36,767:WARNING: * Debugger is active!
+2021-07-19 19:28:36,768:INFO: * Debugger PIN: 985-703-293
+2021-07-19 22:38:31,656:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-19 22:38:31,656:INFO: * Restarting with stat
+2021-07-19 22:38:32,491:WARNING: * Debugger is active!
+2021-07-19 22:38:32,492:INFO: * Debugger PIN: 310-025-136
+2021-07-19 22:39:04,170:INFO:127.0.0.1 - - [19/Jul/2021 22:39:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-19 22:39:04,762:INFO:127.0.0.1 - - [19/Jul/2021 22:39:04] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-19 22:39:13,252:INFO:127.0.0.1 - - [19/Jul/2021 22:39:13] "[35m[1mGET /api/films HTTP/1.1[0m" 500 -
+2021-07-19 22:40:47,233:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-19 22:40:47,235:INFO: * Restarting with stat
+2021-07-19 22:40:48,387:WARNING: * Debugger is active!
+2021-07-19 22:40:48,388:INFO: * Debugger PIN: 310-025-136
+2021-07-19 22:40:59,888:INFO:127.0.0.1 - - [19/Jul/2021 22:40:59] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-19 22:41:00,113:INFO:127.0.0.1 - - [19/Jul/2021 22:41:00] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021-07-19 22:41:00,114:INFO:127.0.0.1 - - [19/Jul/2021 22:41:00] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021-07-19 22:41:00,601:INFO:127.0.0.1 - - [19/Jul/2021 22:41:00] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-19 22:41:08,861:INFO:127.0.0.1 - - [19/Jul/2021 22:41:08] "[35m[1mGET /api/films HTTP/1.1[0m" 500 -
+2021-07-19 19:45:32,938:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-19 19:45:32,939:INFO: * Restarting with stat
+2021-07-19 19:45:35,616:WARNING: * Debugger is active!
+2021-07-19 19:45:35,713:INFO: * Debugger PIN: 185-375-500
+2021-07-19 20:10:27,259:INFO:172.28.0.1 - - [19/Jul/2021 20:10:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-19 20:10:28,844:INFO:172.28.0.1 - - [19/Jul/2021 20:10:28] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-19 20:10:40,952:INFO:172.28.0.1 - - [19/Jul/2021 20:10:40] "[35m[1mGET /api/films HTTP/1.1[0m" 500 -
+2021-07-19 20:11:37,104:INFO: * Detected change in '/usr/src/app/project/config.py', reloading
+2021-07-19 20:11:37,532:INFO: * Restarting with stat
+2021-07-19 20:11:42,508:WARNING: * Debugger is active!
+2021-07-19 20:11:42,586:INFO: * Debugger PIN: 185-375-500
+2021-07-19 20:12:32,549:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-19 20:12:32,550:INFO: * Restarting with stat
+2021-07-19 20:12:37,150:WARNING: * Debugger is active!
+2021-07-19 20:12:37,151:INFO: * Debugger PIN: 268-824-366
+2021-07-19 20:12:39,230:INFO: * Detected change in '/usr/src/app/manage.py', reloading
+2021-07-19 20:12:39,470:INFO: * Restarting with stat
+2021-07-19 20:12:43,905:WARNING: * Debugger is active!
+2021-07-19 20:12:43,910:INFO: * Debugger PIN: 268-824-366
+2021-07-19 20:12:55,833:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-19 20:12:55,834:INFO: * Restarting with stat
+2021-07-19 20:12:58,099:WARNING: * Debugger is active!
+2021-07-19 20:12:58,100:INFO: * Debugger PIN: 315-112-223
+2021-07-19 20:15:54,245:INFO:172.28.0.1 - - [19/Jul/2021 20:15:54] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-19 20:15:54,661:INFO:172.28.0.1 - - [19/Jul/2021 20:15:54] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021-07-19 20:15:54,662:INFO:172.28.0.1 - - [19/Jul/2021 20:15:54] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021-07-19 20:15:57,285:INFO:172.28.0.1 - - [19/Jul/2021 20:15:57] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-19 20:16:04,373:INFO:Sorting films by date ascending
+2021-07-19 20:16:04,417:INFO:172.28.0.1 - - [19/Jul/2021 20:16:04] "[37mGET /api/films/order-by-date-asc HTTP/1.1[0m" 200 -
+2021-07-19 20:16:18,333:INFO:Returning all films of genre Action
+2021-07-19 20:16:18,340:INFO:172.28.0.1 - - [19/Jul/2021 20:16:18] "[37mGET /api/films/genres/Action HTTP/1.1[0m" 200 -
+2021-07-20 08:46:40,698:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 08:46:40,700:INFO: * Restarting with stat
+2021-07-20 08:46:42,925:WARNING: * Debugger is active!
+2021-07-20 08:46:43,022:INFO: * Debugger PIN: 160-507-721
+2021-07-20 08:53:40,180:INFO: * Detected change in '/usr/src/app/project/config.py', reloading
+2021-07-20 08:53:40,300:INFO: * Restarting with stat
+2021-07-20 08:53:42,678:WARNING: * Debugger is active!
+2021-07-20 08:53:42,679:INFO: * Debugger PIN: 160-507-721
+2021-07-20 11:54:42,363:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-20 11:54:42,379:INFO: * Restarting with stat
+2021-07-20 11:54:43,196:WARNING: * Debugger is active!
+2021-07-20 11:54:43,197:INFO: * Debugger PIN: 310-025-136
+2021-07-20 11:54:55,087:INFO:127.0.0.1 - - [20/Jul/2021 11:54:55] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-20 11:54:55,270:INFO:127.0.0.1 - - [20/Jul/2021 11:54:55] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2021-07-20 11:54:55,278:INFO:127.0.0.1 - - [20/Jul/2021 11:54:55] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2021-07-20 11:54:55,285:INFO:127.0.0.1 - - [20/Jul/2021 11:54:55] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021-07-20 11:54:55,286:INFO:127.0.0.1 - - [20/Jul/2021 11:54:55] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021-07-20 11:54:55,898:INFO:127.0.0.1 - - [20/Jul/2021 11:54:55] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-20 11:55:02,766:INFO:Returning all films
+2021-07-20 11:55:02,775:INFO:127.0.0.1 - - [20/Jul/2021 11:55:02] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-20 11:55:45,344:INFO:Sorting films by date ascending
+2021-07-20 11:55:45,390:INFO:127.0.0.1 - - [20/Jul/2021 11:55:45] "[37mGET /api/films/order-by-date-asc HTTP/1.1[0m" 200 -
+2021-07-20 13:12:41,670:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/manage.py', reloading
+2021-07-20 10:12:41,674:INFO: * Detected change in '/usr/src/app/manage.py', reloading
+2021-07-20 10:12:42,005:INFO: * Restarting with stat
+2021-07-20 13:12:42,829:INFO: * Restarting with stat
+2021-07-20 13:12:46,567:WARNING: * Debugger is active!
+2021-07-20 13:12:46,567:INFO: * Debugger PIN: 310-025-136
+2021-07-20 10:12:46,864:WARNING: * Debugger is active!
+2021-07-20 10:12:46,998:INFO: * Debugger PIN: 160-507-721
+2021-07-20 10:15:33,508:INFO: * Detected change in '/usr/src/app/manage.py', reloading
+2021-07-20 13:15:33,513:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/manage.py', reloading
+2021-07-20 10:15:33,844:INFO: * Restarting with stat
+2021-07-20 10:15:36,728:WARNING: * Debugger is active!
+2021-07-20 10:15:36,729:INFO: * Debugger PIN: 160-507-721
+2021-07-20 10:17:19,779:INFO: * Detected change in '/usr/src/app/manage.py', reloading
+2021-07-20 10:17:19,930:INFO: * Restarting with stat
+2021-07-20 10:17:22,989:WARNING: * Debugger is active!
+2021-07-20 10:17:22,989:INFO: * Debugger PIN: 160-507-721
+2021-07-20 10:52:49,590:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 10:52:49,591:INFO: * Restarting with stat
+2021-07-20 10:52:51,830:WARNING: * Debugger is active!
+2021-07-20 10:52:51,869:INFO: * Debugger PIN: 452-423-272
+2021-07-20 10:58:06,209:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 10:58:06,210:INFO: * Restarting with stat
+2021-07-20 10:58:08,623:WARNING: * Debugger is active!
+2021-07-20 10:58:08,624:INFO: * Debugger PIN: 307-932-956
+2021-07-20 10:59:08,558:INFO: * Detected change in '/usr/src/app/manage.py', reloading
+2021-07-20 10:59:08,801:INFO: * Restarting with stat
+2021-07-20 10:59:13,660:WARNING: * Debugger is active!
+2021-07-20 10:59:13,666:INFO: * Debugger PIN: 307-932-956
+2021-07-20 10:59:58,505:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 10:59:58,506:INFO: * Restarting with stat
+2021-07-20 11:00:00,881:WARNING: * Debugger is active!
+2021-07-20 11:00:00,882:INFO: * Debugger PIN: 146-641-225
+2021-07-20 11:02:13,594:INFO:172.29.0.1 - - [20/Jul/2021 11:02:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-20 11:02:13,957:INFO:172.29.0.1 - - [20/Jul/2021 11:02:13] "[37mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+2021-07-20 11:02:13,967:INFO:172.29.0.1 - - [20/Jul/2021 11:02:13] "[37mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 200 -
+2021-07-20 11:02:13,969:INFO:172.29.0.1 - - [20/Jul/2021 11:02:13] "[37mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 200 -
+2021-07-20 11:02:13,978:INFO:172.29.0.1 - - [20/Jul/2021 11:02:13] "[37mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+2021-07-20 11:02:14,422:INFO:172.29.0.1 - - [20/Jul/2021 11:02:14] "[37mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 200 -
+2021-07-20 11:02:14,465:INFO:172.29.0.1 - - [20/Jul/2021 11:02:14] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-20 11:02:21,639:INFO:Setting director id None for film Mystery Cat
+2021-07-20 11:02:21,639:INFO:Setting director id None for film Super hero Cat
+2021-07-20 11:02:21,639:INFO:Setting director id None for film Shooting Star
+2021-07-20 11:02:21,639:INFO:Returning all films
+2021-07-20 11:02:21,651:INFO:172.29.0.1 - - [20/Jul/2021 11:02:21] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-20 11:02:35,067:INFO:Setting director id None for film Mystery Cat
+2021-07-20 11:02:35,067:INFO:Setting director id None for film Super hero Cat
+2021-07-20 11:02:35,067:INFO:Setting director id None for film Shooting Star
+2021-07-20 11:02:35,067:INFO:Returning all films
+2021-07-20 11:02:35,074:INFO:172.29.0.1 - - [20/Jul/2021 11:02:35] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-20 11:02:44,348:INFO:Film with name like My found
+2021-07-20 11:02:44,349:INFO:172.29.0.1 - - [20/Jul/2021 11:02:44] "[37mGET /api/films/My HTTP/1.1[0m" 200 -
+2021-07-20 14:35:08,653:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 14:35:08,660:INFO: * Restarting with stat
+2021-07-20 14:35:10,919:WARNING: * Debugger is active!
+2021-07-20 14:35:10,939:INFO: * Debugger PIN: 604-420-232
+2021-07-20 14:50:40,864:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 14:50:40,865:INFO: * Restarting with stat
+2021-07-20 14:50:43,220:WARNING: * Debugger is active!
+2021-07-20 14:50:43,221:INFO: * Debugger PIN: 271-141-121
+2021-07-20 14:51:12,088:INFO: * Detected change in '/usr/src/app/project/config.py', reloading
+2021-07-20 14:51:12,202:INFO: * Restarting with stat
+2021-07-20 14:51:14,489:WARNING: * Debugger is active!
+2021-07-20 14:51:14,490:INFO: * Debugger PIN: 271-141-121
+2021-07-20 14:51:27,280:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 14:51:27,281:INFO: * Restarting with stat
+2021-07-20 14:51:29,576:WARNING: * Debugger is active!
+2021-07-20 14:51:29,577:INFO: * Debugger PIN: 268-864-861
+2021-07-20 14:53:29,782:INFO: * Detected change in '/usr/src/app/project/config.py', reloading
+2021-07-20 14:53:30,006:INFO: * Restarting with stat
+2021-07-20 14:53:34,566:WARNING: * Debugger is active!
+2021-07-20 14:53:34,567:INFO: * Debugger PIN: 268-864-861
+2021-07-20 14:53:56,735:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 14:53:56,737:INFO: * Restarting with stat
+2021-07-20 14:54:00,641:WARNING: * Debugger is active!
+2021-07-20 14:54:00,645:INFO: * Debugger PIN: 158-224-836
+2021-07-20 18:01:19,104:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-20 18:01:19,110:INFO: * Restarting with stat
+2021-07-20 18:01:20,147:WARNING: * Debugger is active!
+2021-07-20 18:01:20,245:INFO: * Debugger PIN: 310-025-136
+2021-07-20 18:01:28,298:INFO:127.0.0.1 - - [20/Jul/2021 18:01:28] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-20 18:01:29,287:INFO:127.0.0.1 - - [20/Jul/2021 18:01:29] "[37mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 200 -
+2021-07-20 18:01:29,314:INFO:127.0.0.1 - - [20/Jul/2021 18:01:29] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-20 18:01:36,602:INFO:127.0.0.1 - - [20/Jul/2021 18:01:36] "[35m[1mGET /api/films HTTP/1.1[0m" 500 -
+2021-07-20 18:02:52,579:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-20 18:02:52,579:INFO: * Restarting with stat
+2021-07-20 18:02:54,106:WARNING: * Debugger is active!
+2021-07-20 18:02:54,108:INFO: * Debugger PIN: 310-025-136
+2021-07-20 18:02:56,432:INFO:127.0.0.1 - - [20/Jul/2021 18:02:56] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-20 18:02:56,538:INFO:127.0.0.1 - - [20/Jul/2021 18:02:56] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021-07-20 18:02:56,545:INFO:127.0.0.1 - - [20/Jul/2021 18:02:56] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021-07-20 18:02:57,257:INFO:127.0.0.1 - - [20/Jul/2021 18:02:57] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-20 18:03:04,260:INFO:127.0.0.1 - - [20/Jul/2021 18:03:04] "[35m[1mGET /api/films HTTP/1.1[0m" 500 -
+2021-07-20 18:03:41,385:INFO: * Detected change in '/home/yeseniia/Documents/project/film_project/services/web/project/config.py', reloading
+2021-07-20 18:03:41,511:INFO: * Restarting with stat
+2021-07-20 15:04:12,908:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 15:04:12,911:INFO: * Restarting with stat
+2021-07-20 15:04:15,180:WARNING: * Debugger is active!
+2021-07-20 15:04:15,243:INFO: * Debugger PIN: 339-446-174
+2021-07-20 15:06:22,589:INFO: * Detected change in '/usr/src/app/project/config.py', reloading
+2021-07-20 15:06:22,778:INFO: * Restarting with stat
+2021-07-20 15:06:25,098:WARNING: * Debugger is active!
+2021-07-20 15:06:25,099:INFO: * Debugger PIN: 339-446-174
+2021-07-20 15:06:37,802:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 15:06:37,803:INFO: * Restarting with stat
+2021-07-20 15:06:42,286:WARNING: * Debugger is active!
+2021-07-20 15:06:42,287:INFO: * Debugger PIN: 813-554-961
+2021-07-20 15:09:15,879:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 15:09:15,880:INFO: * Restarting with stat
+2021-07-20 15:09:18,443:WARNING: * Debugger is active!
+2021-07-20 15:09:18,446:INFO: * Debugger PIN: 266-575-790
+2021-07-20 15:29:07,002:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 15:29:07,003:INFO: * Restarting with stat
+2021-07-20 15:29:09,400:WARNING: * Debugger is active!
+2021-07-20 15:29:09,401:INFO: * Debugger PIN: 328-018-753
+2021-07-20 15:30:40,200:INFO:172.30.0.1 - - [20/Jul/2021 15:30:40] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-20 15:30:40,628:INFO:172.30.0.1 - - [20/Jul/2021 15:30:40] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021-07-20 15:30:40,632:INFO:172.30.0.1 - - [20/Jul/2021 15:30:40] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021-07-20 15:30:40,651:INFO:172.30.0.1 - - [20/Jul/2021 15:30:40] "[37mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 200 -
+2021-07-20 15:30:40,679:INFO:172.30.0.1 - - [20/Jul/2021 15:30:40] "[37mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 200 -
+2021-07-20 15:30:41,413:INFO:172.30.0.1 - - [20/Jul/2021 15:30:41] "[37mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 200 -
+2021-07-20 15:30:41,684:INFO:172.30.0.1 - - [20/Jul/2021 15:30:41] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-20 15:30:48,544:INFO:Setting director id None for film Mystery Cat
+2021-07-20 15:30:48,545:INFO:Setting director id None for film Super hero Cat
+2021-07-20 15:30:48,545:INFO:Setting director id None for film Shooting Star
+2021-07-20 15:30:48,545:INFO:Returning all films
+2021-07-20 15:30:48,550:INFO:172.30.0.1 - - [20/Jul/2021 15:30:48] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-20 15:31:42,627:INFO: * Detected change in '/usr/src/app/project/config.py', reloading
+2021-07-20 15:31:42,756:INFO: * Restarting with stat
+2021-07-20 15:31:45,295:WARNING: * Debugger is active!
+2021-07-20 15:31:45,296:INFO: * Debugger PIN: 328-018-753
+2021-07-20 18:31:55,947:INFO: * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+2021-07-20 18:31:55,948:INFO: * Restarting with stat
+2021-07-20 18:31:56,797:WARNING: * Debugger is active!
+2021-07-20 18:31:56,798:INFO: * Debugger PIN: 310-025-136
+2021-07-20 18:32:20,006:INFO:127.0.0.1 - - [20/Jul/2021 18:32:20] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-20 18:32:20,545:INFO:127.0.0.1 - - [20/Jul/2021 18:32:20] "[37mGET /swagger.json HTTP/1.1[0m" 200 -
+2021-07-20 18:32:27,089:INFO:Setting director id None for film Mystery Cat
+2021-07-20 18:32:27,097:INFO:Setting director id None for film Super hero Cat
+2021-07-20 18:32:27,097:INFO:Setting director id None for film Shooting Star
+2021-07-20 18:32:27,097:INFO:Returning all films
+2021-07-20 18:32:27,100:INFO:127.0.0.1 - - [20/Jul/2021 18:32:27] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-20 18:33:26,792:INFO:Sorting films by date ascending
+2021-07-20 18:33:26,824:INFO:127.0.0.1 - - [20/Jul/2021 18:33:26] "[37mGET /api/films/order-by-date-asc HTTP/1.1[0m" 200 -
+2021-07-20 18:33:50,837:INFO:Setting director id None for film Mystery Cat
+2021-07-20 18:33:50,837:INFO:Setting director id None for film Super hero Cat
+2021-07-20 18:33:50,837:INFO:Setting director id None for film Shooting Star
+2021-07-20 18:33:50,837:INFO:Returning all films
+2021-07-20 18:33:50,842:INFO:127.0.0.1 - - [20/Jul/2021 18:33:50] "[37mGET /api/films HTTP/1.1[0m" 200 -
+2021-07-20 18:34:02,008:INFO:Setting director id None for film Mystery Cat
+2021-07-20 18:34:02,008:INFO:Setting director id None for film Super hero Cat
+2021-07-20 18:34:02,008:INFO:Setting director id None for film Shooting Star
+2021-07-20 18:34:02,008:INFO:Returning all films
+2021-07-20 18:34:02,020:INFO:127.0.0.1 - - [20/Jul/2021 18:34:02] "[37mGET /api/films?start=11&limit=10 HTTP/1.1[0m" 200 -
+2021-07-20 18:34:12,057:INFO:Setting director id None for film Mystery Cat
+2021-07-20 18:34:12,058:INFO:Setting director id None for film Super hero Cat
+2021-07-20 18:34:12,058:INFO:Setting director id None for film Shooting Star
+2021-07-20 18:34:12,058:INFO:Returning all films
+2021-07-20 18:34:12,066:INFO:127.0.0.1 - - [20/Jul/2021 18:34:12] "[37mGET /api/films?start=21&limit=10 HTTP/1.1[0m" 200 -
+2021-07-20 16:30:17,372:INFO: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-07-20 16:30:17,373:INFO: * Restarting with stat
+2021-07-20 16:30:21,016:WARNING: * Debugger is active!
+2021-07-20 16:30:21,018:INFO: * Debugger PIN: 328-018-753
+2021-07-20 17:39:26,954:INFO: * Detected change in '/usr/src/app/project/config.py', reloading
+2021-07-20 17:39:27,340:INFO: * Restarting with stat
+2021-07-20 17:39:30,972:WARNING: * Debugger is active!
+2021-07-20 17:39:31,050:INFO: * Debugger PIN: 328-018-753

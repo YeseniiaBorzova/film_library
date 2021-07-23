@@ -102,7 +102,7 @@ class Film(db.Model):
     director_id = db.Column(db.Integer, db.ForeignKey('directors.id'), nullable=True)
     name = db.Column(db.String(200), unique=False, nullable=False)
     release_date = db.Column(db.DateTime(), unique=False, nullable=False)
-    rating = db.Column(db.Float, db.CheckConstraint("1<=rating<=10"), unique=False, nullable=False)
+    rating = db.Column(db.Float, unique=False, nullable=False)
     poster_link = db.Column(db.Text, unique=False, nullable=False)
     description = db.Column(db.Text, unique=False, nullable=True)
     film_genres = db.relationship('FilmToGenre', backref='film', lazy=True)

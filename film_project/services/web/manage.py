@@ -37,6 +37,14 @@ def seed_db():
     dir5 = Director('Todd', 'Phillips')
     dir6 = Director('Guy', 'Ritchie')
     dir7 = Director('Martin', 'Scorsese')
+    dir8 = Director("Christopher", "Nolan")
+    dir9 = Director("Li", "Chang")
+    dir10 = Director("Jhon", "Black")
+    dir11 = Director("Mane", "Aston")
+    dir12 = Director("Anny", "Stone")
+    dir13 = Director("Some", "Dude")
+    dir14 = Director("Conrad", "Shield")
+    dir15 = Director("Walter", "White")
     gnr1 = Genre('Crime')
     gnr2 = Genre('Drama')
     gnr3 = Genre('Thriller')
@@ -148,6 +156,76 @@ def seed_db():
                     ' a battle of wits and brawn with a nemesis whose plot is a threat to all of England.',
         director_id=6
     )
+    flm14 = Film(
+        user_id=4, name='Mystery Cat', release_date='2016-11-03', rating=8.3,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.ru%2Fpin%2F376261743866615679%2F&'
+                    'psig=AOvVaw2fEOYCnu5fCHVUUw26AmSX&ust=1626858372823000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJj56'
+                    'O6l8fECFQAAAAAdAAAAABAD',
+        description=''
+    )
+    flm15 = Film(
+        user_id=4, name='Super hero Cat', release_date='2017-04-12', rating=6.5,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F740419994988730339%2F&'
+                    'psig=AOvVaw2fEOYCnu5fCHVUUw26AmSX&ust=1626858372823000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJj56'
+                    'O6l8fECFQAAAAAdAAAAABAO',
+        description='Super hero cat saves the world'
+    )
+    flm16 = Film(
+        user_id=4, name='Very Big Cat', release_date='2021-04-23', rating=7.5,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.adme.ru%2Fzhizn-zhivotnye%2F17-umoritelnyh-'
+                    'dokazatelstv-togo-chto-kotiki-eto-zhidkost-2508881%2F&psig=AOvVaw2fEOYCnu5fCHVUUw26AmSX&ust=16268'
+                    '58372823000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJj56O6l8fECFQAAAAAdAAAAABAU',
+        description='Adventures of very big cat', director_id=8
+    )
+    flm17 = Film(
+        user_id=5, name='Kitty Cat', release_date='2013-06-15', rating=6.3,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2Fsvidok.online%2Fmy-ly-e-koty-ky-v-shapkah-y-z-s'
+                    'obstvennoj-shersty%2F&psig=AOvVaw2fEOYCnu5fCHVUUw26AmSX&ust=1626858372823000&source=images&cd=vfe'
+                    '&ved=0CAsQjRxqFwoTCJj56O6l8fECFQAAAAAdAAAAABAa',
+        description='Kitty Cat Sam life&adventures', director_id=13
+    )
+    flm18 = Film(
+        user_id=1, name='Mystery Things', release_date='2010-07-28', rating=5.4,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2Fngs.ru%2Ftext%2Ftags%2F%25D0%25BA%25D0%25BE%25D'
+                    '1%2582%25D0%25B8%25D0%25BA%25D0%25B8%2F&psig=AOvVaw2fEOYCnu5fCHVUUw26AmSX&ust=1626858372823000&s'
+                    'ource=images&cd=vfe&ved=0CAsQjRxqFwoTCJj56O6l8fECFQAAAAAdAAAAABAg',
+        description='Very mystery things in mystery place', director_id=13
+    )
+    flm19 = Film(
+        user_id=1, name='Some Film', release_date='2009-12-03', rating=3.5,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ranak.me%2F2018%2F12%2F02%2Fzacem-nam-koti'
+                    'ki%2F&psig=AOvVaw2fEOYCnu5fCHVUUw26AmSX&ust=1626858372823000&source=images&cd=vfe&ved=0CAsQjRxqF'
+                    'woTCJj56O6l8fECFQAAAAAdAAAAABAm',
+        description='Description of film', director_id=13
+    )
+    flm20 = Film(
+        user_id=1, name='Panda Po', release_date='2013-01-03', rating=3.5,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2Fria.ru%2F20170301%2F1488412994.html&psig=AOvVa'
+                    'w2fEOYCnu5fCHVUUw26AmSX&ust=1626858372823000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJj56O6l8fEC'
+                    'FQAAAAAdAAAAABAy',
+        description='', director_id=9
+    )
+    flm21 = Film(
+        user_id=1, name='Panda Po 2', release_date='2014-12-12', rating=6.2,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2Fkotiki.net%2Fstixi-pro-kotikov-anatolij-movshov'
+                    'ich%2F&psig=AOvVaw2fEOYCnu5fCHVUUw26AmSX&ust=1626858372823000&source=images&cd=vfe&ved=0CAsQjRxqF'
+                    'woTCJj56O6l8fECFQAAAAAdAAAAABAs',
+        description="", director_id=9
+    )
+    flm22 = Film(
+        user_id=1, name='Panda Po 3', release_date='2016-08-10', rating=7.1,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4Z21-XXji5c&p'
+                    'sig=AOvVaw2fEOYCnu5fCHVUUw26AmSX&ust=1626858372823000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJ'
+                    'j56O6l8fECFQAAAAAdAAAAABA3',
+        description="", director_id=9
+    )
+    flm23 = Film(
+        user_id=1, name='Shooting Star', release_date='2019-03-30', rating=7.8,
+        poster_link='https://www.google.com/url?sa=i&url=https%3A%2F%2F4lapy.ru%2Fnews%2Fkotiki-ishchut-dom%2F&psig='
+                    'AOvVaw2fEOYCnu5fCHVUUw26AmSX&ust=1626858372823000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJj56O6'
+                    'l8fECFQAAAAAdAAAAABA8',
+        description=""
+    )
     fg1 = FilmToGenre(1, 1)
     fg2 = FilmToGenre(2, 1)
     fg3 = FilmToGenre(3, 1)
@@ -183,7 +261,22 @@ def seed_db():
     fg33 = FilmToGenre(12, 13)
     fg34 = FilmToGenre(7, 13)
     fg35 = FilmToGenre(11, 13)
-    db.session.add_all([])
+    fg36 = FilmToGenre(1, 15)
+    fg37 = FilmToGenre(3, 15)
+    fg38 = FilmToGenre(12, 15)
+    fg39 = FilmToGenre(7, 17)
+    fg40 = FilmToGenre(4, 17)
+    fg41 = FilmToGenre(12, 20)
+    db.session.add_all([usr1, usr2, usr3, usr4, usr5, usr6, usr7, usr8, usr9, usr10,
+                        dir1, dir2, dir3, dir4, dir5, dir6, dir7, gnr1, gnr2, gnr3,
+                        gnr4, gnr5, gnr6, gnr7, gnr8, gnr9, gnr10, gnr11, gnr12, flm1,
+                        flm2, flm3, flm4, flm5, flm6, flm7, flm8, flm9, flm10, flm11,
+                        flm12, flm13, fg1, fg2, fg3, fg4, fg5, fg6, fg7, fg8, fg9, fg10,
+                        fg11, fg12, fg13, fg14, fg15, fg16, fg17, fg18, fg19, fg20, fg21,
+                        fg22, fg23, fg24, fg25, fg26, fg27, fg28, fg29, fg30, fg31, fg32,
+                        fg33, fg34, fg35, dir8, dir9, dir10, dir11, dir12, dir13, dir14, dir15,
+                        flm14, flm15, flm16, flm17, flm18, flm19, flm20, flm21,
+                        flm22, flm23, fg36, fg37, fg38, fg39, fg40, fg41])
     db.session.commit()
 
 
